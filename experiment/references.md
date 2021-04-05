@@ -8,7 +8,7 @@
 
 1. [http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html](http://orgchem.colorado.edu/hndbksupport/specttutor/irchart.html)
 2. [ http://chem-ilp.net/labTechniques/IRVideo.htm](http://chem-ilp.net/labTechniques/IRVideo.htm)
-3 [http://www.umass.edu/microbio/chime/ir-spect/#](http://www.umass.edu/microbio/chime/ir-spect/#)
+3. [http://www.umass.edu/microbio/chime/ir-spect/#](http://www.umass.edu/microbio/chime/ir-spect/#)
 4. [http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html#](http://www.chem.umass.edu/~nermmw/Spectra/irspectra/Methanol/methanol.html#)
 5. [http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm](http://www2.chemistry.msu.edu/faculty/reusch/VirtTxtJml/Spectrpy/InfraRed/problems/irmsprb.htm)
 6. [http://solidstate.physics.sunysb.edu/book/prob/node111.html](http://solidstate.physics.sunysb.edu/book/prob/node111.html)
