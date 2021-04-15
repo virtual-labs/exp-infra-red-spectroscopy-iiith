@@ -1,0 +1,852 @@
+#layer4{
+    opacity:0;
+    z-index: 0;
+}
+#line1{
+    position: absolute;
+    top:32.2rem;
+    height: 0.5rem;
+    width: 10rem;
+    left:10.6rem;
+    background-color:rgb(231, 231, 125); 
+    opacity:0;
+    z-index: 9;  
+
+}
+#line2{
+    position: absolute;
+    top:32.2rem;
+    height: 0.5rem;
+    width: 14rem;
+    left:20.6rem;
+    background-color:rgb(231, 231, 125); 
+    opacity:0;
+    z-index: 9;  
+
+}
+#lineup1{
+    position: absolute;
+    top:15.7rem;
+    height: 10.9rem;
+    width: 0.5rem;
+    left:36rem;
+    background-color:rgb(231, 231, 125); 
+    opacity:0;
+    z-index: 9;  
+}
+#lineup2{
+    position: absolute;
+    top:8.7rem;
+    height: 7.5rem;
+    width: 0.5rem;
+    left:36rem;
+    background-color:rgb(231, 231, 125)/*red*/; 
+    opacity:0;
+    z-index: 9;  
+}
+#lineright1{
+    position: absolute;
+    top:32.2rem;
+    height: 0.5rem;
+    width: 15rem;
+    left:38.6rem;
+    background-color:rgb(231, 231, 125); 
+    opacity:0;
+    z-index: 9;  
+}
+#lineright2{
+    position: absolute;
+    top:32.2rem;
+    height: 0.5rem;
+    width: 10.4rem;
+    left:53.6rem;
+    background-color:rgb(231, 231, 125)/*red*//*rgb(231, 231, 125)*/; 
+    opacity:0;
+    z-index: 9;  
+}
+
+#linedown1{
+    position: absolute;
+    top:37.5rem;
+    height: 8rem;
+    width: 0.5rem;
+    left:37rem;
+    background-color:rgb(231, 231, 125); 
+    opacity:0;
+    z-index: 9;  
+}
+#linedown2{
+    position: absolute;
+    top:45.5rem;
+    height: 7.5rem;
+    width: 0.5rem;
+    left:37rem;
+    background-color:rgb(231, 231, 125)/*red*//*rgb(231, 231, 125)*/; 
+    opacity:0;
+    z-index: 9;  
+}
+#fixedmirror{
+    position: absolute;
+    top:5rem;
+    height:3.7rem;
+    width: 30rem;
+    left:28rem;
+    opacity:1;
+    z-index: 9; 
+
+}
+#beamsplitter{
+    position: absolute;
+    top:25rem;
+    height: 16rem;
+    width: 21rem;
+    left:32.4rem;
+    opacity:1;
+
+    z-index: 9; 
+
+}
+#ir{
+    position: absolute;
+    top:25rem;
+    height: 12.5rem;
+    width: 13.5rem;
+    left:0.4rem;
+    opacity:1;
+    z-index: 9; 
+
+}
+#mirror1{
+    position: absolute;
+    top:23.9rem;
+    height: 13.5rem;
+    width: 15.5rem;
+    left:57.5rem;
+  
+    opacity:1;
+    z-index: 9; 
+
+}
+#detector{
+    position: absolute;
+    top:53rem;
+    height: 12rem;
+    width: 18rem;
+    left:35rem;
+    opacity:1;
+    z-index: 9; 
+
+}
+
+#rightarrow1 {
+    position: absolute;
+    top:36.755vw;
+    left:30vw;
+    border: solid rgb(231, 231, 125); 
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.4vw;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    opacity:0;
+  }
+  #rightarrow2 {
+    position: absolute;
+    top:36.755vw;
+    left:35vw;
+    border: solid rgb(231, 231, 125); ;
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.4vw;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    
+  }
+  #leftarrow1 {
+    position: absolute;
+    left:61vw;
+    top:36.755vw;
+    border: solid rgb(231, 231, 125); ;
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.4vw;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    opacity:0;
+  }
+
+  #uparrow1 {
+    position: absolute;
+    top:14.555vw;
+    left:47.6vw;
+    border: solid rgb(231, 231, 125); ;
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.4vw;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    opacity:0;
+  }
+  #downarrow1 {
+    position: absolute;
+    top:19.555vw;
+    left:47.6vw;
+    border: solid rgb(231, 231, 125); ;
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.4vw;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    opacity:0;
+  }
+  #downarrow2 {
+    position: absolute;
+    top:47.555vw;
+    left:47.6vw;
+    border: solid rgb(231, 231, 125); ;
+    border-width: 0 0.2vw 0.2vw 0;
+    display: inline-block;
+    padding: 0.4vw;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    opacity:0;
+  }
+
+  @media screen and (max-width: 1315px)
+ {
+    #line1{
+        position: absolute;
+        top:27.3rem;
+        height: 0.5rem;
+        width: 7.4rem;
+        left:7.6rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    
+    }
+    #line2{
+        position: absolute;
+        top:27.3rem;
+        height: 0.5rem;
+        width: 9.5rem;
+        left:15rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    
+    }
+    #lineup1{
+        position: absolute;
+        top:14.7rem;
+        height: 7.7rem;
+        width: 0.5rem;
+        left:25.5rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineup2{
+        position: absolute;
+        top:8.7rem;
+        height: 6rem;
+        width: 0.5rem;
+        left:25.5rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineright1{
+        position: absolute;
+        top:27.7rem;
+        height: 0.5rem;
+        width: 8rem;
+        left:27.8rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineright2{
+        position: absolute;
+        top:27.7rem;
+        height: 0.5rem;
+        width: 10rem;
+        left:35.8rem;
+        background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
+        opacity:0;
+        z-index: 9;  
+    }
+    
+    #linedown1{
+        position: absolute;
+        top:32.5rem;
+        height: 5.5rem;
+        width: 0.5rem;
+        left:26.4rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #linedown2{
+        position: absolute;
+        top:38rem;
+        height: 6rem;
+        width: 0.5rem;
+        left:26.4rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #fixedmirror{
+        position: absolute;
+        top:5rem;
+        height:3.7rem;
+        width: 26rem;
+        left:18rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #beamsplitter{
+        position: absolute;
+        top:20rem;
+        height: 16rem;
+        width: 17rem;
+        left:22.4rem;
+        opacity:1;
+    
+        z-index: 9; 
+    
+    }
+    #ir{
+        position: absolute;
+        top:22rem;
+        height: 9.5rem;
+        width: 9.5rem;
+        left:0.4rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #mirror1{
+        position: absolute;
+        top:18.6rem;
+        height: 13.5rem;
+        width: 12.5rem;
+        left:40.5rem;
+      
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #detector{
+        position: absolute;
+        top:44rem;
+        height: 12rem;
+        width: 18rem;
+        left:23.7rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    
+    #rightarrow1 {
+        position: absolute;
+        top:36.755vw;
+        left:30vw;
+        border: solid (231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #rightarrow2 {
+        position: absolute;
+        top:36.755vw;
+        left:35vw;
+        border: solid rgb(231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #leftarrow1 {
+        position: absolute;
+        left:61vw;
+        top:36.755vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        opacity:0;
+      }
+    
+      #uparrow1 {
+        position: absolute;
+        top:14.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        opacity:0;
+      }
+      #downarrow1 {
+        position: absolute;
+        top:19.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+      #downarrow2 {
+        position: absolute;
+        top:47.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+ }
+
+ @media screen and (max-width: 950px)
+ {
+    #line1{
+        position: absolute;
+        top:24.9rem;
+        height: 0.5rem;
+        width: 7.4rem;
+        left:5.6rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    
+    }
+    #line2{
+        position: absolute;
+        top:24.9rem;
+        height: 0.5rem;
+        width: 7.7rem;
+        left:13rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    
+    }
+    #lineup1{
+        position: absolute;
+        top:13.9rem;
+        height: 6.2rem;
+        width: 0.5rem;
+        left:20.5rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineup2{
+        position: absolute;
+        top:8rem;
+        height: 6rem;
+        width: 0.5rem;
+        left:20.5rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineright1{
+        position: absolute;
+        top:24.9rem;
+        height: 0.5rem;
+        width: 8rem;
+        left:23.3rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineright2{
+        position: absolute;
+        top:24.9rem;
+        height: 0.5rem;
+        width: 9rem;
+        left:30.8rem;
+        background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
+        opacity:0;
+        z-index: 9;  
+    }
+    
+    #linedown1{
+        position: absolute;
+        top:28.5rem;
+        height: 6.3rem;
+        width: 0.5rem;
+        left:21.4rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #linedown2{
+        position: absolute;
+        top:34.7rem;
+        height: 6rem;
+        width: 0.5rem;
+        left:21.4rem;
+        background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
+        opacity:0;
+        z-index: 9;  
+    }
+    #fixedmirror{
+        position: absolute;
+        top:5rem;
+        height:3rem;
+        width: 18rem;
+        left:15.5rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #beamsplitter{
+        position: absolute;
+        top:20rem;
+        height: 13rem;
+        width: 14rem;
+        left:19.4rem;
+        opacity:1;
+    
+        z-index: 9; 
+    
+    }
+    #ir{
+        position: absolute;
+        top:21rem;
+        height: 7rem;
+        width: 7rem;
+        left:0.4rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #mirror1{
+        position: absolute;
+        top:18.6rem;
+        height: 11.5rem;
+        width: 12.5rem;
+        left:34.5rem;
+      
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #detector{
+        position: absolute;
+        top:40.8rem;
+        height: 8rem;
+        width: 13rem;
+        left:19.7rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    
+    #rightarrow1 {
+        position: absolute;
+        top:36.755vw;
+        left:30vw;
+        border: solid (231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #rightarrow2 {
+        position: absolute;
+        top:36.755vw;
+        left:35vw;
+        border: solid rgb(231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #leftarrow1 {
+        position: absolute;
+        left:61vw;
+        top:36.755vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        opacity:0;
+      }
+    
+      #uparrow1 {
+        position: absolute;
+        top:14.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        opacity:0;
+      }
+      #downarrow1 {
+        position: absolute;
+        top:19.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+      #downarrow2 {
+        position: absolute;
+        top:47.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+ }
+ @media screen and (max-width: 800px)
+ {
+    #line1{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 4.1rem;
+        left:4.8rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    
+    }
+    #line2{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 4.2rem;
+        left:8.7rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    
+    }
+    #lineup1{
+        position: absolute;
+        top:16.3rem;
+        height: 4.7rem;
+        width: 0.3rem;
+        left:12.5rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineup2{
+        position: absolute;
+        top:11.5rem;
+        height: 4.8rem;
+        width: 0.3rem;
+        left:12.5rem;
+        background-color:(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineright1{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 5rem;
+        left:14.7rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #lineright2{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 6rem;
+        left:18.8rem;
+        background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
+        opacity:0;
+        z-index: 9;  
+    }
+    
+    #linedown1{
+        position: absolute;
+        top:25.5rem;
+        height: 4.6rem;
+        width: 0.5rem;
+        left:12.4rem;
+        background-color:rgb(231, 231, 125); 
+        opacity:0;
+        z-index: 9;  
+    }
+    #linedown2{
+        position: absolute;
+        top:30.1rem;
+        height: 4.5rem;
+        width: 0.5rem;
+        left:12.4rem;
+        background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
+        opacity:0;
+        z-index: 9;  
+    }
+    #fixedmirror{
+        position: absolute;
+        top:9.5rem;
+        height:2rem;
+        width: 15rem;
+        left:9rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #beamsplitter{
+        position: absolute;
+        top:21rem;
+        height: 8rem;
+        width: 12rem;
+        left:11.4rem;
+        opacity:1;
+    
+        z-index: 9; 
+    
+    }
+    #ir{
+        position: absolute;
+        top:21rem;
+        height: 6rem;
+        width: 6rem;
+        left:0.4rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #mirror1{
+        position: absolute;
+        top:18.7rem;
+        height: 9rem;
+        width: 8rem;
+        left:22rem;
+      
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    #detector{
+        position: absolute;
+        top:35rem;
+        height: 6rem;
+        width: 9rem;
+        left:11.3rem;
+        opacity:1;
+        z-index: 9; 
+    
+    }
+    
+    #rightarrow1 {
+        position: absolute;
+        top:36.755vw;
+        left:30vw;
+        border: solid (231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #rightarrow2 {
+        position: absolute;
+        top:36.755vw;
+        left:35vw;
+        border: solid rgb(231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #leftarrow1 {
+        position: absolute;
+        left:61vw;
+        top:36.755vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        opacity:0;
+      }
+    
+      #uparrow1 {
+        position: absolute;
+        top:14.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        opacity:0;
+      }
+      #downarrow1 {
+        position: absolute;
+        top:19.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+      #downarrow2 {
+        position: absolute;
+        top:47.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+
+ }

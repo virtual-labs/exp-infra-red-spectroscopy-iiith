@@ -1,0 +1,318 @@
+ body {
+     height:100%;
+     width:100%;
+ }
+ #ircollect
+ {
+    position:relative;
+}
+
+#layer2
+{
+    opacity:0;
+    z-index: 0;
+}
+
+#ircollect > * {
+    position: absolute;
+}
+#ircollect {
+    /* display:inline; */
+    top:6.2rem;
+    left:16rem;
+}
+
+#irplate2
+{
+    top:2em;
+    left:1em;
+    height:8em;
+    width:8em;
+}
+#redcircle1
+    {
+        top:4em;
+        left:3.5em;
+        height:3em;
+        width:3em;
+        border-radius: 50%;
+        background-color: red;
+    }
+    #redcircle2
+    {
+        top:5.2em;
+        left:6.5em;
+        height:3em;
+        width:3em;
+        border-radius: 50%;
+        z-index: 3;
+        background-color: red;
+        opacity:0;
+    }
+#irplate4
+{
+    top:-1em;
+    left:1em;
+    height:8em;
+    width:8em;
+    opacity:0;
+}
+
+#irplate5
+{
+    top:3.5em;
+    left:4em;
+    height:8em;
+    width:8em;
+    opacity:0;
+}
+
+#irplate3
+{
+    top:2em;
+    left:18em;
+    height:8em;
+    width:8em;
+    
+} 
+
+#platecollect
+{
+    position:relative;
+}
+
+#platecollect > * {
+    position:absolute;
+
+}
+
+#platecollect
+{
+    left:13.8rem;
+    top:20rem;
+    
+}
+
+#plate1
+{
+    top: 1em;
+    left:2em;
+    height:13em;
+    width:13em;
+}
+#plate2
+{
+    left: 2em;
+    top:15em;
+    height:13em;
+    width:13em;
+}
+
+@media screen and (max-width: 800px) {
+    /* #platecollect {
+        left: 1rem;
+    }
+    #ircollect {
+        left: 0rem;
+    } */
+    
+    #irplate2
+    {
+
+        left:4em;
+        height:7em;
+        width:7em;
+    }
+    #irplate4
+    {
+
+        left:4em;
+        height:7em;
+        width:7em;
+    }
+    #redcircle1
+    {
+        top:3.3em;
+        left:6.1em;
+        height:3em;
+        width:3em;
+        border-radius: 50%;
+        background-color: red;
+    }
+    #irplate3
+    {
+        height:7em;
+        width:7em;
+
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #plate1 {
+        /* left:1em; */
+        width:8rem;
+        
+        height:8em;
+        /* left: 1rem; */
+    }
+    #plate2 {
+        width: 8em;
+        height: 8em;
+        /* left: 13em; */
+    }
+    #irplate2
+    {
+
+        left:3em;
+        height:5em;
+        width:5em;
+    }
+    #redcircle1
+    {
+        top:3.3em;
+        left:4.6em;
+        height:1.8em;
+        width:1.8em;
+        border-radius: 50%;
+        background-color: red;
+    }
+    #redcircle2
+    {
+        top:3.7em;
+        left:4.8em;
+        height:2em;
+        width:2em;
+        border-radius: 50%;
+        z-index: 3;
+        background-color: red;
+    }
+    #irplate5
+    {
+        top:2.5em;
+        left:3.3em;
+        height:5em;
+        width:5em;
+    }
+    #irplate4
+    {
+
+        left:3em;
+        height:5em;
+        width:5em;
+    }
+    #irplate3
+    {
+        left: 13em;
+        height:5em;
+        width:5em;
+
+    }
+    #platecollect {
+        top: 15em;
+    }
+
+}
+
+@media screen and (max-width: 470px) {
+    /* #platecollect
+    {
+        top:12rem;
+    } */
+    /* #plate1 {
+        width:7.5rem;
+        height: 7.5em;
+        
+    }
+    #plate2 {
+        width: 7.5em;
+        height: 7.5em;
+        
+    } */
+    #irplate2
+    {
+
+        height:5em;
+        width:5em;
+    }
+    #irplate4
+    {
+
+        height:5em;
+        width:5em;
+    }
+    #irplate3
+    {
+        /* left: 12em; */
+        height:5em;
+        width:5em;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    /* #platecollect
+    {
+        top:12.5rem;
+        
+    } */
+    #plate1 {
+        width:5.5rem;
+        height: 5.5em;
+        /* left:1.6em; */
+        /* left: 1rem; */
+    }
+    #plate2 {
+        width: 5.5em;
+        height: 5.5em;
+        /* left: 8em; */
+    }
+    #irplate2
+    {
+        /* left:2.1em; */
+
+        height:4em;
+        width:4em;
+    }
+    #irplate5
+    {
+        top:2.1em;
+        left:3em;
+        height:3.2em;
+        width:3.2em;
+    }
+    #redcircle1
+    {
+        top:3em;
+        left:4.2em;
+        height:1.5em;
+        width:1.5em;
+        border-radius: 50%;
+        background-color: red;
+    }
+    #redcircle2
+    {
+        top:3.1em;
+        left:4em;
+        height:1.2em;
+        width:1.2em;
+        border-radius: 50%;
+        z-index: 3;
+        background-color: red;
+    }
+    #irplate4
+    {
+        /* left:2.1em; */
+
+        height:4em;
+        width:4em;
+        /* opacity:0, */
+    }
+    #irplate3
+    {
+        /* left: 7.6em; */
+        height:4em;
+        width:4em;
+        left:9em;
+
+    }
+}
