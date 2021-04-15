@@ -8,7 +8,7 @@
 #layer1{
   position:relative;
   /* z-index: 0; */
-  opacity: 1;
+  opacity: 0;
 }
 #sample{
   position:absolute;
