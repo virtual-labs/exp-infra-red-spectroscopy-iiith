@@ -27,7 +27,7 @@
     background-color: rgb(37, 37, 37);
     border-radius: 60%;
     opacity:1;
-    z-index: 5;
+    z-index: 2;
 }
 
 #stand{
@@ -40,7 +40,7 @@
     /* border-radius: 60%; */
     /* opacity:1; */
     opacity:1;
-    z-index: 6;
+    z-index: 3;
 
 }
 
@@ -53,7 +53,7 @@
     /* background-color: rgb(37, 37, 37); */
     /* border-radius: 60%; */
     opacity:1;
-    z-index:9;  
+    z-index:5;  
 }
 
 #movable{
@@ -66,7 +66,7 @@
     /* border-radius: 60%; */
     opacity:1;
     transform: rotateY(29deg);
-    z-index: 7;
+    z-index: 4;
     
 }
 #scanner{
@@ -107,7 +107,7 @@
         background-color: rgb(37, 37, 37);
         border-radius: 60%;
         opacity:1;
-        z-index: 5;
+        /* z-index: 5; */
     }
     #singlestand{
         position: absolute;
@@ -116,7 +116,7 @@
         width: 0.6rem;
         left:34.2rem;
         opacity:1;
-        z-index:9;  
+        /* z-index:9;   */
     }
     
     #movable{
@@ -127,7 +127,7 @@
         left:33.8rem;
         opacity:1;
         transform: rotateY(29deg);
-        z-index: 7;
+        /* z-index: 7; */
         
     }
     #stand{
@@ -137,7 +137,7 @@
         width: 16rem;
         left:26.97rem;
         opacity:1;
-        z-index: 6;
+        /* z-index: 6; */
     
     }
     #scanner{
@@ -156,7 +156,7 @@
         font-size:3.5rem;
         top: 13rem;
         left: 31rem;
-        z-index:3;
+        /* z-index:3; */
 
      }
  }
@@ -198,7 +198,7 @@
         background-color: rgb(37, 37, 37);
         border-radius: 60%;
         opacity:1;
-        z-index: 5;
+        /* z-index: 5; */
     }
     #singlestand{
         position: absolute;
@@ -207,7 +207,7 @@
         width: 0.6rem;
         left:31.7rem;
         opacity:1;
-        z-index:9;  
+        /* z-index:9;   */
     }
     
     #movable{
@@ -218,7 +218,7 @@
         left:31.8rem;
         opacity:1;
         transform: rotateY(29deg);
-        z-index: 7;
+        /* z-index: 7; */
         
     }
     #stand{
@@ -228,7 +228,7 @@
         width: 16rem;
         left:24.5rem;
         opacity:1;
-        z-index: 6;
+        /* z-index: 6; */
     
     }
     #scanner{
@@ -247,12 +247,12 @@
         font-size:3.5rem;
         top: 13rem;
         left: 27rem;
-        z-index:3;
+        /* z-index:3; */
 
      }
  }
 
- @media screen and (max-width: 580px)
+ /* @media screen and (max-width: 580px)
  {
     #createcircle{
         position: absolute;
@@ -380,4 +380,4 @@
         z-index:3;
 
      }
- }
+ } */

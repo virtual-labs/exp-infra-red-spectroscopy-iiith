@@ -1,0 +1,66 @@
+#layer0{
+    opacity:0;
+    z-index: 0;
+}
+#button1 {
+    position: absolute;
+    font-size:4rem;
+    border-radius: 0.2rem;
+    background-color:#288EC8;
+    top: 10.6rem;
+    left: 16rem;
+    z-index:15;
+}
+#button2 {
+    position: absolute;
+    font-size:4rem;
+    border-radius: 0.2rem;
+    background-color: #288EC8;
+    top: 10.6rem;
+    left: 45rem;
+    z-index: 15;
+}
+
+@media screen and (max-width: 1230px)
+{
+    #button1{
+        left:22rem;
+    }
+    #button2{
+        left:22rem;
+        top:19rem;
+       
+    }
+}
+
+@media screen and (max-width: 855px)
+{
+    #button1{
+        left:13rem;
+        font-size:3.5rem;
+    }
+    #button2{
+        left:13rem;
+        top:19rem;
+        font-size:3.5rem;
+       
+    }
+}
+
+@media screen and (max-width: 460px)
+{
+    #button1{
+        left:8rem;
+        font-size:3rem;
+    }
+    #button2{
+        left:8rem;
+        top:19rem;
+        font-size:3rem;
+       
+    }
+    #message{
+        font-size: 3rem;
+    }
+}
+
