@@ -3,22 +3,29 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="stylesheet" href="./css/layer0.css">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/layer2.css">
         <link rel="stylesheet" href="./css/layer3.css">
         <link rel="stylesheet" href="./css/layer4.css">
+        <!-- <link rel="stylesheet" href="./css/layer5.css"> -->
 
         <script src="https://unpkg.com/mathjs@9.2.0/lib/browser/math.js"></script>
     </head>
     <title>Index</title> 
     <body>
+        <div id="layer0">
+            <div id = "buttonclass" class = "mainbuttons">
+                <button onclick="select('1')" id="button1">Aspirine</button>
+                <button onclick="select('2')" id="button2">Caffeine</button>
+            </div>
+        </div>
        <div id="layer1">
         <img onclick="fetchwater()" src = "./images/nizol.png" id="nizol">
         <img onclick="movespatula()" src = "./images/smple.png" id="sample">
         <img onclick = "movemixer()" src="./images/mortar.png" id="mortar">
         <div id="mortarheading">Mortar</div>
-        <div id="message">Select any sample</div>
+        
         <img onclick = "movemixer()" src="./images/mixer.png" id="mixer">
         <img src="./images/spatula.png" id="spatula1">
         <img src="./images/spatula.png" id="spatula2">
@@ -28,8 +35,8 @@
         <img src="./images/dropper.png" id="dropper2">
         <div id="water1"></div>
         <div id="water2"></div>
-        <div id="ircontent"></div>
-        <img src="./images/irplate.png" id="irplate">
+        <div onclick="gotolayer2()" id="ircontent"></div>
+        <img onclick="gotolayer2()" src="./images/irplate.png" id="irplate">
         <div id="irplateheading">IR-Plate</div>
     </div>
     <div id="layer2">
@@ -40,18 +47,18 @@
         <img onclick = "moveplates()" src="./images/irplate.png" id="irplate3">
         </div>
         <div id="platecollect">
-            <div id="redcircle2"></div>
-            <img src="./images/platewithborder.png" id="plate1">
+            <div onclick="changetostart()" id="redcircle2"></div>
+            <img onclick="changetostart()" src="./images/platewithborder.png" id="plate1">
             <img src="./images/platewoborder.png" id="plate2">
-            <img src="./images/irplate.png" id="irplate5">
+            <img onclick="changetostart()" src="./images/irplate.png" id="irplate5">
         </div>
     </div>
     <div id="layer3">
         <div id="allobjects">
         <img id="stand" src="./images/setstand.png" onclick="circles()" id="monitor">
         <img src="./images/movable.png"  id="movable">
-        <div onclick ="shiftmovable()" id="createcircle"></div> 
-        <button onclick = "testlineanim()" id="startbutton" >Start</button>
+        <div  id="createcircle"></div> 
+        <button onclick ="changelayerthree()" id="startbutton" >Start</button>
         <img src="./images/stand.png"  id="singlestand">
     
         <img src="./images/scanner.png"  id="scanner">
@@ -79,7 +86,12 @@
         <div id = "downarrow2"></div>
         <div id = "uparrow1"></div>
     </div>
-    
+    <!-- <div id="layer5">
+        <img onclick="creategraph()" src="./images/moniter.png" id="monitor">
+        <div id="chartContainer"></div>
+        <button onclick="window.location.href='./evaluation/evaluation.html'" id="evaluatebutton" >Evaluate</button> 
+    </div> -->
+    <div id="message">Select any sample</div>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
