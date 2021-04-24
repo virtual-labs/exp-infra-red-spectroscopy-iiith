@@ -160,6 +160,7 @@
     padding: 0.4vw;
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
+    opacity:0;
     
   }
   #leftarrow1 {
@@ -507,7 +508,7 @@
         width: 0.5rem;
         left:21.4rem;
         background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
-        opacity:0;
+        /* opacity:0; */
         /* z-index: 9;   */
     }
     #fixedmirror{
@@ -770,6 +771,220 @@
         height: 6rem;
         width: 9rem;
         left:11.3rem;
+        opacity:1;
+        /* z-index: 9;  */
+    
+    }
+    
+    #rightarrow1 {
+        position: absolute;
+        top:36.755vw;
+        left:30vw;
+        border: solid (231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #rightarrow2 {
+        position: absolute;
+        top:36.755vw;
+        left:35vw;
+        border: solid rgb(231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        opacity:0;
+      }
+      #leftarrow1 {
+        position: absolute;
+        left:61vw;
+        top:36.755vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+        opacity:0;
+      }
+    
+      #uparrow1 {
+        position: absolute;
+        top:14.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); 
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(-135deg);
+        -webkit-transform: rotate(-135deg);
+        opacity:0;
+      }
+      #downarrow1 {
+        position: absolute;
+        top:19.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+      #downarrow2 {
+        position: absolute;
+        top:47.555vw;
+        left:47.6vw;
+        border: solid rgb(231, 231, 125); ;
+        border-width: 0 0.2vw 0.2vw 0;
+        display: inline-block;
+        padding: 0.4vw;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        opacity:0;
+      }
+
+ }
+
+ @media screen and (max-width: 580px)
+ {
+    #line1{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 2.8rem;
+        left:4.2rem;
+        background-color:(231, 231, 125); 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    
+    }
+    #line2{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 2.3rem;
+        left:7rem;
+        background-color:(231, 231, 125); 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    
+    }
+    #lineup1{
+        position: absolute;
+        top:17.2rem;
+        height: 3.9rem;
+        width: 0.3rem;
+        left:9.5rem;
+        background-color:rgb(231, 231, 125); 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    }
+    #lineup2{
+        position: absolute;
+        top:14.5rem;
+        height: 2.8rem;
+        width: 0.3rem;
+        left:9.5rem;
+        background-color:(231, 231, 125); 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    }
+    #lineright1{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 2.3rem;
+        left:11.7rem;
+        background-color:rgb(231, 231, 125); 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    }
+    #lineright2{
+        position: absolute;
+        top:24.5rem;
+        height: 0.3rem;
+        width: 4.1rem;
+        left:12.8rem;
+        background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    }
+    
+    #linedown1{
+        position: absolute;
+        top:25.5rem;
+        height: 4.6rem;
+        width: 0.5rem;
+        left:9.4rem;
+        background-color:rgb(231, 231, 125); 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    }
+    #linedown2{
+        position: absolute;
+        top:28.1rem;
+        height: 3.4rem;
+        width: 0.5rem;
+        left:9.4rem;
+        background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
+        /* opacity:0; */
+        /* z-index: 9;   */
+    }
+    #fixedmirror{
+        position: absolute;
+        top:12.5rem;
+        height:2rem;
+        width: 12rem;
+        left:6.6rem;
+        opacity:1;
+        /* z-index: 9;  */
+    
+    }
+    #beamsplitter{
+        position: absolute;
+        top:21rem;
+        height: 8rem;
+        width: 12rem;
+        left:8rem;
+        opacity:1;
+    
+        /* z-index: 9;  */
+    
+    }
+    #ir{
+        position: absolute;
+        top:21rem;
+        height: 6rem;
+        width: 6rem;
+        left:-0.3rem;
+        opacity:1;
+        /* z-index: 9;  */
+    
+    }
+    #mirror1{
+        position: absolute;
+        top:18.7rem;
+        height: 9rem;
+        width: 7.5rem;
+        left:13.5rem;
+      
+        opacity:1;
+        /* z-index: 9;  */
+    
+    }
+    #detector{
+        position: absolute;
+        top:31.5rem;
+        height: 6rem;
+        width: 8rem;
+        left:8.3rem;
         opacity:1;
         /* z-index: 9;  */
     

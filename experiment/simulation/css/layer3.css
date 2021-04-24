@@ -315,9 +315,9 @@
         z-index:3;
 
      }
- }
+ }*/
 
- @media screen and (max-width: 480px)
+ @media screen and (max-width: 570px)
  {
     #createcircle{
         position: absolute;
@@ -374,10 +374,10 @@
     #startbutton{
         position:absolute;
         background-color:#288EC8;
-        font-size:2.4rem;
+        font-size:1.7rem;
         top: 13rem;
         left: 22rem;
         z-index:3;
 
      }
- } */
+ } 
