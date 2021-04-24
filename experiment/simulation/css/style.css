@@ -613,7 +613,7 @@
     #nizol {
       /* On small screens, we are no longer using row direction but column */
       left:7rem;
-      top:13rem;
+      top:16rem;
       /* height:5rem; */
       width:6rem;
       height:6rem;
@@ -621,7 +621,7 @@
     }
     #sample
     {
-      top:5rem;
+      top:8rem;
       left:7rem;
       height:6rem;
       width: 6rem;
@@ -629,14 +629,14 @@
     #mortar {
       /* On small screens, we are no longer using row direction but column */
       left:6.2rem;
-      top:22rem;
+      top:25rem;
       width: 8rem;
       height :6rem;
     }
     #mortarheading {
       /* On small screens, we are no longer using row direction but column */
       left:7.89rem;
-      top:28.5rem;
+      top:31.5rem;
       width: 8rem;
       height :10rem;
       font-size:1.5rem;
@@ -647,7 +647,7 @@
     }
     #mixer{
       position: absolute;
-      top: 20rem;
+      top: 23rem;
       height: 5.3rem;
       width: 1.7rem; 
       transform: rotate(28deg);
@@ -657,7 +657,7 @@
       position:absolute;
       /* top: */
       left:8.9rem;
-      top:2.7rem;
+      top:5.7rem;
       height:4rem;
       
     }
@@ -665,7 +665,7 @@
       position:absolute;
       /* top: */
       left:8rem;
-      top:20rem;
+      top:23rem;
       height:4rem;
       
     }
@@ -673,39 +673,39 @@
       position:absolute;
       /* top: */
       left:8rem;
-      top:20rem;
+      top:23rem;
       height:4rem;
     
     }
     #spatula4
     {
-      top:26.5rem;
+      top:29.5rem;
       left:8rem;
     }
     #dropper1{
-      top:10.5rem;
+      top:13.5rem;
       left:9rem;
     }
     #dropper2{
-      top:18rem;
+      top:21rem;
       left:8rem;
     }
     #water1{
-      top:12rem;
+      top:15rem;
       left:9.64rem;
       width:0.67rem;
       height:2.5rem;
 
     }
     #water2{
-      top:19.5rem;
+      top:22.5rem;
       left:8.66rem;
       width:0.62rem;
       height:2.4rem;
 
     }
     #irplate{
-      top:32rem;
+      top:35rem;
       left:6rem;
       width:8rem;
       height:6em;
@@ -719,14 +719,14 @@
     } */
     #ircontent
     {
-      top:33rem;
+      top:36rem;
       left:8.1rem;
       height:3rem;
       width:4rem;
 
     }
     #irplateheading{
-      top:39rem;
+      top:42rem;
       left:7.5rem;
       font-size:1.6rem;
       
