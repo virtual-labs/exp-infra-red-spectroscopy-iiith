@@ -175,26 +175,27 @@
     #plate1 {
         /* left:1em; */
         width:8rem;
-        
+        left: -12em;
         height:8em;
         /* left: 1rem; */
     }
     #plate2 {
         width: 8em;
         height: 8em;
+        left:-12em;
         /* left: 13em; */
     }
     #irplate2
     {
 
-        left:-10em;
+        left:-13em;
         height:5em;
         width:5em;
     }
     #redcircle1
     {
         top:3.3em;
-        left:-8.4em;
+        left:-11.4em;
         height:1.8em;
         width:1.8em;
         border-radius: 50%;
@@ -203,7 +204,7 @@
     #redcircle2
     {
         top:3.7em;
-        left:-6.2em;
+        left:-9.2em;
         height:2em;
         width:2em;
         border-radius: 50%;
@@ -213,20 +214,20 @@
     #irplate5
     {
         top:2.5em;
-        left:-7.7em;
+        left:-10.7em;
         height:5em;
         width:5em;
     }
     #irplate4
     {
 
-        left:-10em;
+        left:-13em;
         height:5em;
         width:5em;
     }
     #irplate3
     {
-        left: 0em;
+        left: -6em;
         height:5em;
         width:5em;
 
