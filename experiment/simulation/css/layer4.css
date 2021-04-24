@@ -858,8 +858,8 @@
         position: absolute;
         top:24.5rem;
         height: 0.3rem;
-        width: 2.8rem;
-        left:4.2rem;
+        width: 2.3rem;
+        left:2.6rem;
         background-color:(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -870,7 +870,7 @@
         top:24.5rem;
         height: 0.3rem;
         width: 2.3rem;
-        left:7rem;
+        left:4.9rem;
         background-color:(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -878,20 +878,20 @@
     }
     #lineup1{
         position: absolute;
-        top:17.2rem;
+        top:18.2rem;
         height: 3.9rem;
         width: 0.3rem;
-        left:9.5rem;
+        left:7.1rem;
         background-color:rgb(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
     }
     #lineup2{
         position: absolute;
-        top:14.5rem;
+        top:15.5rem;
         height: 2.8rem;
         width: 0.3rem;
-        left:9.5rem;
+        left:7.1rem;
         background-color:(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -900,8 +900,8 @@
         position: absolute;
         top:24.5rem;
         height: 0.3rem;
-        width: 2.3rem;
-        left:11.7rem;
+        width: 2rem;
+        left:9.5rem;
         background-color:rgb(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -910,8 +910,8 @@
         position: absolute;
         top:24.5rem;
         height: 0.3rem;
-        width: 4.1rem;
-        left:12.8rem;
+        width: 2.4rem;
+        left:11.5rem;
         background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -922,7 +922,7 @@
         top:25.5rem;
         height: 4.6rem;
         width: 0.5rem;
-        left:9.4rem;
+        left:7.4rem;
         background-color:rgb(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -932,27 +932,27 @@
         top:28.1rem;
         height: 3.4rem;
         width: 0.5rem;
-        left:9.4rem;
+        left:7.4rem;
         background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
         /* opacity:0; */
         /* z-index: 9;   */
     }
     #fixedmirror{
         position: absolute;
-        top:12.5rem;
+        top:13.5rem;
         height:2rem;
-        width: 12rem;
-        left:6.6rem;
+        width: 9rem;
+        left:4.7rem;
         opacity:1;
         /* z-index: 9;  */
     
     }
     #beamsplitter{
         position: absolute;
-        top:21rem;
-        height: 8rem;
+        top:22rem;
+        height: 5rem;
         width: 12rem;
-        left:8rem;
+        left:5.5rem;
         opacity:1;
     
         /* z-index: 9;  */
@@ -960,20 +960,20 @@
     }
     #ir{
         position: absolute;
-        top:21rem;
-        height: 6rem;
-        width: 6rem;
-        left:-0.3rem;
+        top:21.7rem;
+        height: 5rem;
+        width: 5rem;
+        left:-1.2rem;
         opacity:1;
         /* z-index: 9;  */
     
     }
     #mirror1{
         position: absolute;
-        top:18.7rem;
-        height: 9rem;
+        top:20.4rem;
+        height: 7rem;
         width: 7.5rem;
-        left:13.5rem;
+        left:10.8rem;
       
         opacity:1;
         /* z-index: 9;  */
@@ -984,7 +984,7 @@
         top:31.5rem;
         height: 6rem;
         width: 8rem;
-        left:8.3rem;
+        left:6.4rem;
         opacity:1;
         /* z-index: 9;  */
     
