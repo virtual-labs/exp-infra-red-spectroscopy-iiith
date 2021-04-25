@@ -24,6 +24,42 @@
     z-index: 2;  
 
 }
+#fixedmirrorheading
+{
+    position: absolute;
+    font-size:2.5rem;
+    left: 46.5rem;
+    top:5.4rem;
+}
+#irheading
+{
+    position: absolute;
+    font-size:2.5rem;
+    left:2.5rem;
+    top:23.4rem;
+}
+#moveablemirrorheading
+{
+    position: absolute;
+    font-size:2.5rem;
+    left:56.8rem;
+    top:20.3rem;
+}
+#beamsplitterheading
+{
+    position: absolute;
+    font-size:2.2rem;
+    left:22.7rem;
+    top:34.3rem;
+}
+#detectorheading
+{
+    position: absolute;
+    font-size:2.2rem;
+    left:42.7rem;
+    top:54.3rem;
+    width:5rem;
+}
 #lineup1{
     position: absolute;
     top:15.7rem;
@@ -89,8 +125,8 @@
     position: absolute;
     top:5rem;
     height:3.7rem;
-    width: 30rem;
-    left:28rem;
+    width: 16rem;
+    left:29rem;
     opacity:1;
     z-index: 2; 
 
@@ -98,9 +134,9 @@
 #beamsplitter{
     position: absolute;
     top:25rem;
-    height: 16rem;
-    width: 21rem;
-    left:32.4rem;
+    height: 13rem;
+    width: 8rem;
+    left:32.5rem;
     opacity:1;
 
     z-index: 2; 
@@ -108,10 +144,10 @@
 }
 #ir{
     position: absolute;
-    top:25rem;
-    height: 12.5rem;
-    width: 13.5rem;
-    left:0.4rem;
+    top:28.4rem;
+    height: 8rem;
+    width: 8rem;
+    left:2.9rem;
     opacity:1;
     z-index: 2; 
 
@@ -131,8 +167,8 @@
     position: absolute;
     top:53rem;
     height: 12rem;
-    width: 18rem;
-    left:35rem;
+    width: 8rem;
+    left:33.8rem;
     opacity:1;
     z-index: 2; 
 
@@ -215,6 +251,42 @@
 
   @media screen and (max-width: 1315px)
  {
+    #fixedmirrorheading
+    {
+        position: absolute;
+        font-size:2.5rem;
+        left: 35rem;
+        top:5.4rem;
+    }
+    #irheading
+    {
+        position: absolute;
+        font-size:2.2rem;
+        left:1.7rem;
+        top:21rem;
+    }
+    #moveablemirrorheading
+    {
+        position: absolute;
+        font-size:2.5rem;
+        left:40.8rem;
+        top:15.3rem;
+    }
+    #beamsplitterheading
+    {
+    position: absolute;
+    font-size:2rem;
+    left:13.7rem;
+    top:29.3rem;
+    }
+    #detectorheading
+    {
+    position: absolute;
+    font-size:2.2rem;
+    left:32.7rem;
+    top:46.3rem;
+    width:5rem;
+    }
     #line1{
         position: absolute;
         top:27.3rem;
@@ -302,7 +374,7 @@
         position: absolute;
         top:5rem;
         height:3.7rem;
-        width: 26rem;
+        width: 16rem;
         left:18rem;
         opacity:1;
         /* z-index: 9;  */
@@ -310,9 +382,9 @@
     }
     #beamsplitter{
         position: absolute;
-        top:20rem;
-        height: 16rem;
-        width: 17rem;
+        top:22rem;
+        height: 11rem;
+        width: 8em;
         left:22.4rem;
         opacity:1;
     
@@ -321,20 +393,20 @@
     }
     #ir{
         position: absolute;
-        top:22rem;
-        height: 9.5rem;
-        width: 9.5rem;
-        left:0.4rem;
+        top:24.5rem;
+        height: 6.2rem;
+        width: 6.2rem;
+        left:1.5rem;
         opacity:1;
         /* z-index: 9;  */
     
     }
     #mirror1{
         position: absolute;
-        top:18.6rem;
+        top:19rem;
         height: 13.5rem;
         width: 12.5rem;
-        left:40.5rem;
+        left:40.7rem;
       
         opacity:1;
         /* z-index: 9;  */
@@ -343,8 +415,8 @@
     #detector{
         position: absolute;
         top:44rem;
-        height: 12rem;
-        width: 18rem;
+        height: 10rem;
+        width: 8rem;
         left:23.7rem;
         opacity:1;
         /* z-index: 9;  */
@@ -428,12 +500,51 @@
 
  @media screen and (max-width: 950px)
  {
+     #fixedmirrorheading
+    {
+        position: absolute;
+        font-size:1.6rem;
+        left: 27.7rem;
+        top:5.7rem;
+    }
+    #irheading
+    {
+        position: absolute;
+        font-size:1.6rem;
+        left:1.5rem;
+        top:21rem;
+
+    }
+    #moveablemirrorheading
+    {
+        position: absolute;
+        font-size:1.5rem;
+        left:35.8rem;
+        top:16.2rem;
+    }
+    #beamsplitterheading
+    {
+    position: absolute;
+    font-size:1.8rem;
+    width:2rem;
+    left:12.7rem;
+    top:27rem;
+    }
+    
+    #detectorheading
+    {
+    position: absolute;
+    font-size:2rem;
+    left:25.7rem;
+    top:43.3rem;
+    width:5rem;
+    }
     #line1{
         position: absolute;
         top:24.9rem;
         height: 0.5rem;
         width: 7.4rem;
-        left:5.6rem;
+        left:7rem;
         background-color:(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -515,8 +626,8 @@
         position: absolute;
         top:5rem;
         height:3rem;
-        width: 18rem;
-        left:15.5rem;
+        width: 13rem;
+        left:14.5rem;
         opacity:1;
         /* z-index: 9;  */
     
@@ -524,9 +635,9 @@
     #beamsplitter{
         position: absolute;
         top:20rem;
-        height: 13rem;
-        width: 14rem;
-        left:19.4rem;
+        height: 10rem;
+        width: 8rem;
+        left:18.4rem;
         opacity:1;
     
         /* z-index: 9;  */
@@ -534,10 +645,10 @@
     }
     #ir{
         position: absolute;
-        top:21rem;
-        height: 7rem;
-        width: 7rem;
-        left:0.4rem;
+        top:22.7rem;
+        height: 5rem;
+        width: 5rem;
+        left:2.1rem;
         opacity:1;
         /* z-index: 9;  */
     
@@ -557,8 +668,8 @@
         position: absolute;
         top:40.8rem;
         height: 8rem;
-        width: 13rem;
-        left:19.7rem;
+        width: 6rem;
+        left:19rem;
         opacity:1;
         /* z-index: 9;  */
     
@@ -640,6 +751,44 @@
  }
  @media screen and (max-width: 800px)
  {
+    #fixedmirrorheading
+    {
+        position: absolute;
+        font-size:1.5rem;
+        left: 8.8rem;
+        top:7.4rem;
+    }
+    #irheading
+    {
+        position: absolute;
+        font-size:1.6rem;
+        left:1.5rem;
+        top:21rem;
+
+    }
+    #moveablemirrorheading
+    {
+        position: absolute;
+        font-size:1.5rem;
+        left:16.8rem;
+        top:17.8rem;
+    }
+    #beamsplitterheading
+    {
+    position: absolute;
+    font-size:1.6rem;
+    width:2rem;
+    left:7rem;
+    top:26rem;
+    }
+    #detectorheading
+    {
+    position: absolute;
+    font-size:2rem;
+    left:15.7rem;
+    top:35.3rem;
+    width:5rem;
+    }
     #line1{
         position: absolute;
         top:24.5rem;
@@ -727,18 +876,18 @@
         position: absolute;
         top:9.5rem;
         height:2rem;
-        width: 15rem;
-        left:9rem;
+        width: 9rem;
+        left:8.5rem;
         opacity:1;
         /* z-index: 9;  */
     
     }
     #beamsplitter{
         position: absolute;
-        top:21rem;
+        top:20.8rem;
         height: 8rem;
-        width: 12rem;
-        left:11.4rem;
+        width: 7rem;
+        left:10.3rem;
         opacity:1;
     
         /* z-index: 9;  */
@@ -746,20 +895,20 @@
     }
     #ir{
         position: absolute;
-        top:21rem;
-        height: 6rem;
-        width: 6rem;
-        left:0.4rem;
+        top:23rem;
+        height: 3.2rem;
+        width: 3.2rem;
+        left:1.8rem;
         opacity:1;
         /* z-index: 9;  */
     
     }
     #mirror1{
         position: absolute;
-        top:18.7rem;
-        height: 9rem;
+        top:20rem;
+        height: 8em;
         width: 8rem;
-        left:17rem;
+        left:17.5rem;
       
         opacity:1;
         /* z-index: 9;  */
@@ -769,8 +918,8 @@
         position: absolute;
         top:35rem;
         height: 6rem;
-        width: 9rem;
-        left:11.3rem;
+        width: 5rem;
+        left:10.3rem;
         opacity:1;
         /* z-index: 9;  */
     
@@ -854,6 +1003,47 @@
 
  @media screen and (max-width: 580px)
  {
+    #fixedmirrorheading
+    {
+        position: absolute;
+        font-size:1.4rem;
+        left: 4.5rem;
+        top:10.5rem;
+        width:4rem;
+    }
+    #irheading
+    {
+        position: absolute;
+        font-size:1.5rem;
+        width:4rem;
+        left:1.1rem;
+        top:26rem;
+
+    }
+    #moveablemirrorheading
+    {
+        position: absolute;
+        font-size:1.4rem;
+        left:8.8rem;
+        top:18.8rem;
+        width:4rem;
+    }
+    #beamsplitterheading
+    {
+        position: absolute;
+        font-size:1.4rem;
+        width:2rem;
+        left:9rem;
+        top:27rem;
+    }
+    #detectorheading
+    {
+    position: absolute;
+    font-size:1.6rem;
+    left:5rem;
+    top:37.8rem;
+    width:5rem;
+    }
     #line1{
         position: absolute;
         top:24.5rem;
@@ -900,8 +1090,8 @@
         position: absolute;
         top:24.5rem;
         height: 0.3rem;
-        width: 2rem;
-        left:9.5rem;
+        width: 1.7rem;
+        left:9.1rem;
         background-color:rgb(231, 231, 125); 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -910,8 +1100,8 @@
         position: absolute;
         top:24.5rem;
         height: 0.3rem;
-        width: 2.4rem;
-        left:11.5rem;
+        width: 2rem;
+        left:10.8rem;
         background-color:(231, 231, 125)/*rgb(231, 231, 125)*/; 
         /* opacity:0; */
         /* z-index: 9;   */
@@ -941,8 +1131,8 @@
         position: absolute;
         top:13.5rem;
         height:2rem;
-        width: 9rem;
-        left:4.7rem;
+        width: 7rem;
+        left:4.1rem;
         opacity:1;
         /* z-index: 9;  */
     
@@ -951,7 +1141,7 @@
         position: absolute;
         top:22rem;
         height: 5rem;
-        width: 12rem;
+        width: 5rem;
         left:5.5rem;
         opacity:1;
     
@@ -960,19 +1150,19 @@
     }
     #ir{
         position: absolute;
-        top:21.7rem;
-        height: 5rem;
-        width: 5rem;
-        left:-1.2rem;
+        top:23.7rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        left:0.9rem;
         opacity:1;
         /* z-index: 9;  */
     
     }
     #mirror1{
         position: absolute;
-        top:20.4rem;
-        height: 7rem;
-        width: 7.5rem;
+        top:21.9rem;
+        height: 5rem;
+        width: 5rem;
         left:10.8rem;
       
         opacity:1;
@@ -983,8 +1173,8 @@
         position: absolute;
         top:31.5rem;
         height: 6rem;
-        width: 8rem;
-        left:6.4rem;
+        width: 3.8rem;
+        left:6rem;
         opacity:1;
         /* z-index: 9;  */
     
