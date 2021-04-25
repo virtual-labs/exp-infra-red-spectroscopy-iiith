@@ -20,6 +20,7 @@
     left:60vw;
     top:53vw;
     z-index: 16;
+    /* opacity:0; */
 }
 
 #chartContainer{
@@ -42,6 +43,7 @@
     /* background-color: #add8e6; */
     /* border-radius: 0 0 1vw 1vw;   */
     z-index: 15;
+    /* opacity:0; */
 }
 
 @media screen and (max-width: 1200px)
