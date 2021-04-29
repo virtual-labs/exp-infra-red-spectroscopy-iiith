@@ -3,13 +3,23 @@
     z-index: 0;
 }
 #button1 {
-    position: absolute;
+
+        color: white;
+        text-align: center;
+        font-size: 4rem;
+        background-color: #288EC8;
+        border-radius: 16px;
+        z-index:15;
+    
+
+    /* position: absolute;
     font-size:4rem;
     border-radius: 0.2rem;
     background-color:#288EC8;
     top: 10.6rem;
     left: 16rem;
     z-index:15;
+} */
 }
 #button2 {
     position: absolute;
