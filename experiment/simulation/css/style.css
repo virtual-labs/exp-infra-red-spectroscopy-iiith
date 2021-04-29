@@ -9,7 +9,7 @@
 #layer1{
   position:relative;
   /* z-index:0 ; */
-  opacity: 1;
+  opacity: 0;
 }
 #sample{
   position:absolute;
@@ -32,6 +32,7 @@
   height:10rem;
   width:14rem;
   z-index: 10;
+
 }
 
 #mortarheading{
@@ -63,7 +64,8 @@
   position:absolute;
   top:0.2rem;
   font-size: 3rem;
-  background-color:greenyellow;
+  background-color: #288EC8;
+  color: white;
   width:90%;
 }
 
@@ -170,170 +172,38 @@
   z-index: 11;
   
 }
-@media all and (min-width: 757px) and (max-width: 815px) {
+
+  @media all and (min-width: 757px) and (max-width: 1359px) {
     #nizol {
       /* On small screens, we are no longer using row direction but column */
-      left:24rem;
-      top:5rem;
+      left:31rem;
+      top:7rem;
       height:7rem;
 
     }
     #sample
     {
-      top:5rem;
+      top:7rem;
       left:7rem;
       height: 7rem;
     }
     #mortar {
       /* On small screens, we are no longer using row direction but column */
-      left:13.5rem;
-      top:20rem;
+      left:7.5rem;
+      top:24rem;
       width: 12rem;
     }
     #mortarheading{
       position:absolute;
       font-size: 3rem;
-      left: 16rem;
-      top: 30.6rem;
-    }
-
-    #sampleheading{
-      position:absolute;
-      font-size: 3rem;
-      left: 7.6rem;
-      top: 12rem;
-      z-index: 10;
-    }
-
-    #nizolheading{
-      position:absolute;
-      font-size: 3rem;
-      left: 25.7rem;
-      top: 11.5rem;
-      z-index: 10;
-    }
-  
-    #message{
-      font-size:2rem;
-    }
-    #spatula1{
-      position:absolute;
-      height:4.5rem;
-      left: 10.5rem;
-      top:2.8rem;
-      /* opacity:1, */
-    }
-    #spatula2{
-      position:absolute;
-      top:15rem;
-      left:16rem;
-      height:8rem;
-      
-    }
-    #spatula3{
-      position:absolute;
-      top:15rem;
-      left:16rem;
-      height:8rem;
-      
-    }
-    
-    #dropper1{
-      /* position:absolute; */
-      height:5rem;
-      width:2rem;
-      left:28rem;
-      top:2rem;
-      /* opacity:0; */
-    
-    }
-    
-    #dropper2{
-      /* position:absolute; */
-      height:5rem;
-      width:2rem;
-      left:18rem;
-      top:16rem;
-      /* opacity:0; */
-    
-    }
-    #water1{
-      top:3.5rem;
-      left:28.64rem;
-      width:0.67rem;
-      height:2.5rem;
-      /* opacity: 0; */
-
-    }
-    #water2{
-      top:17.7rem;
-      left:18.64rem;
-      width:0.67rem;
-      height:2.5rem;
-      /* opacity: 0; */
-
-    }
-
-    #irplate{
-      top:21rem;
-      left:30rem;
-      width:12rem;
-      height:9em;
-
-    }
-    #ircontent
-    {
-      top:22.8rem;
-      left:33rem;
-      width:6rem;
-      height:4rem;
-    }
-    #spatula4
-    {
-      top:16rem;
-      left:34rem;
-      
-    }
-    #irplateheading{
-      top:31rem;
-      left:31.5rem;
-      font-size:3rem;
-      
-
-    }
-
-  }
-  @media all and (min-width: 816px) and (max-width: 1359px) {
-    #nizol {
-      /* On small screens, we are no longer using row direction but column */
-      left:24rem;
-      top:5rem;
-      height:7rem;
-
-    }
-    #sample
-    {
-      top:5rem;
-      left:7rem;
-      height: 7rem;
-    }
-    #mortar {
-      /* On small screens, we are no longer using row direction but column */
-      left:13.5rem;
-      top:20rem;
-      width: 12rem;
-    }
-    #mortarheading{
-      position:absolute;
-      font-size: 3rem;
-      left: 16rem;
-      top: 30.6rem;
+      left: 10rem;
+      top: 34.6rem;
     }
     #nizolheading{
       position:absolute;
       font-size: 3rem;
-      left: 25.7rem;
-      top: 11.5rem;
+      left: 32.7rem;
+      top: 13.5rem;
       z-index: 10;
     }
     
@@ -341,85 +211,85 @@
       position:absolute;
       font-size: 3rem;
       left: 7.6rem;
-      top: 12rem;
+      top: 14rem;
       z-index: 10;
     }
     #message{
-      font-size:2rem;
+      font-size:2.1rem;
     }
     #mixer{
       position: absolute;
-      top: 16.7rem;
+      top: 20.7rem;
       height: 8.3rem;
       width: 2rem; 
       transform: rotate(28deg);
-      left: 19.9rem; 
+      left: 13.9rem; 
     }
     #spatula1{
       position:absolute;
-      height:4rem;
+      height:6rem;
       left:11rem;
-      top:3rem;
+      top:5rem;
       
     }
     #spatula2{
       position:absolute;
-      top:16.5rem;
+      top:20.5rem;
       /* top: */
-      left:16rem;
+      left:10rem;
       height:7rem;
       
     }
     #spatula3{
       position:absolute;
-      top:16.5rem;
+      top:20.5rem;
       /* top: */
-      left:16rem;
+      left:10rem;
       height:7rem;
       
     }
     #dropper1{
-      top:2rem;
-      left:28rem;
+      top:4rem;
+      left:35rem;
     }
     #dropper2{
-      top:17rem;
-      left:16rem;
+      top:21rem;
+      left:10rem;
     }
     #water1{
-      top:3.5rem;
-      left:28.64rem;
+      top:5.5rem;
+      left:35.64rem;
       width:0.67rem;
       height:2.5rem;
 
     }
     #water2{
-      top:18.5rem;
-      left:16.66rem;
+      top:22.5rem;
+      left:10.66rem;
       width:0.62rem;
       height:2.4rem;
 
     }
     #irplate{
-      top:21rem;
+      top:25rem;
       left:30rem;
       width:12rem;
       height:9em;
 
     }
     #irplateheading{
-      top:31rem;
+      top:35rem;
       left:31.5rem;
       font-size:3rem;
     }
     #spatula4
     {
-      top:17rem;
+      top:21rem;
       left:33.5rem;
     }
     #ircontent
     {
-      top:22.7rem;
+      top:26.7rem;
       left:33.4rem;
       width:5.5rem; 
       height:4rem;
@@ -541,8 +411,8 @@
   @media all and (max-width: 756px) and (min-width: 521px) {
     #nizol {
       /* On small screens, we are no longer using row direction but column */
-      left:19rem;
-      top:5rem;
+      left:22rem;
+      top:7rem;
       /* height:5rem; */
       width:6rem;
       height:6rem;
@@ -551,7 +421,7 @@
     }
     #sample
     {
-      top:5rem;
+      top:7rem;
       left:7rem;
       height:6rem;
       width: 6rem;
@@ -559,26 +429,26 @@
     }
     #mortar {
       /* On small screens, we are no longer using row direction but column */
-      left:12rem;
-      top:16rem;
+      left:7rem;
+      top:20rem;
       width: 8rem;
       height :6rem;
       
     }
 
     #mortarheading{
-      top:22rem;
-      left:13rem;
-      font-size:2rem;
+      top:26rem;
+      left:8rem;
+      font-size:2.2rem;
      
 
     }
 
     #nizolheading{
       position:absolute;
-      font-size:2rem;
-      left: 19.8rem;
-      top: 10.7rem;
+      font-size:2.2rem;
+      left: 22.8rem;
+      top: 12.7rem;
       z-index: 10;
     }
     
@@ -586,66 +456,66 @@
       position:absolute;
       font-size: 2rem;
       left: 7.1rem;
-      top: 11.1rem;
+      top: 12.8rem;
       z-index: 10;
     }
 
     #mixer{
       position: absolute;
-      top: 13.6rem;
+      top: 17.6rem;
       height: 5.3rem;
       width: 1.7rem; 
       transform: rotate(28deg);
-      left: 15.8rem; 
+      left: 10.8rem; 
     }
     #spatula1{
       position:absolute;
       /* top: */
       left:8.9rem;
-      top:2.7rem;
+      top:4.7rem;
       height:4rem;
 
     }
     #spatula2{
       position:absolute;
       /* top: */
-      left:12.5rem;
-      top:12rem;
+      left:8.5rem;
+      top:16rem;
       height:6rem;
       
     }
     #spatula3{
       position:absolute;
       /* top: */
-      left:12.5rem;
-      top:12rem;
+      left:8.5rem;
+      top:16rem;
       height:6rem;
       
     }
     #dropper1{
-      top:3rem;
-      left:21rem;
+      top:5rem;
+      left:24rem;
     }
     #dropper2{
-      top:13rem;
-      left:13rem;
+      top:17rem;
+      left:9rem;
     }
     #water1{
-      top:4.5rem;
-      left:21.64rem;
+      top:6.5rem;
+      left:24.64rem;
       width:0.67rem;
       height:2.5rem;
 
     }
     #water2{
-      top:14.5rem;
-      left:13.66rem;
+      top:18.5rem;
+      left:9.66rem;
       width:0.62rem;
       height:2.4rem;
 
     }
     #irplate{
-      top:15.8rem;
+      top:19.8rem;
       left:22rem;
       width:8rem;
       height:6em;
@@ -653,18 +523,18 @@
     }
     #ircontent
     {
-      top:16.6rem;
+      top:20.6rem;
       left:24rem;
       width:4rem;
       height:3rem;
     }
     #spatula4
     {
-      top:11.8rem;
+      top:15.8rem;
       left:23rem;
     }
     #irplateheading{
-      top:22rem;
+      top:26rem;
       left:22rem;
       font-size:2.2rem;
       
@@ -680,7 +550,7 @@
     #nizol {
       /* On small screens, we are no longer using row direction but column */
       left:4rem;
-      top:16rem;
+      top:14rem;
       /* height:5rem; */
       width:6rem;
       height:5rem;
@@ -688,7 +558,7 @@
     }
     #sample
     {
-      top:8rem;
+      top:5em;
       left:4rem;
       height:5rem;
       width: 6rem;
@@ -696,14 +566,14 @@
     #mortar {
       /* On small screens, we are no longer using row direction but column */
       left:3.2rem;
-      top:25rem;
+      top:24rem;
       width: 8rem;
       height :6rem;
     }
     #mortarheading {
       /* On small screens, we are no longer using row direction but column */
       left:4.89rem;
-      top:31.5rem;
+      top:30.5rem;
       width: 8rem;
       height :10rem;
       font-size:1.5rem;
@@ -712,7 +582,7 @@
       position:absolute;
       font-size:1.5rem;
       left: 4.89rem;
-      top: 20.7rem;
+      top: 18.7rem;
       z-index: 10;
     }
     
@@ -720,7 +590,7 @@
       position:absolute;
       font-size: 1.5rem;
       left: 4.89rem;
-      top: 12.9rem;
+      top: 9.9rem;
       z-index: 10;
     }
     #message
@@ -729,7 +599,7 @@
     }
     #mixer{
       position: absolute;
-      top: 23rem;
+      top: 22rem;
       height: 5.3rem;
       width: 1.7rem; 
       transform: rotate(28deg);
@@ -739,7 +609,7 @@
       position:absolute;
       /* top: */
       left:5.9rem;
-      top:5.7rem;
+      top:2.7rem;
       height:4rem;
       
     }
@@ -747,7 +617,7 @@
       position:absolute;
       /* top: */
       left:5rem;
-      top:23rem;
+      top:21rem;
       height:4rem;
       
     }
@@ -755,60 +625,54 @@
       position:absolute;
       /* top: */
       left:5rem;
-      top:23rem;
+      top:21rem;
       height:4rem;
     
     }
     #spatula4
     {
-      top:29.5rem;
+      top:28.5rem;
       left:5rem;
     }
     #dropper1{
-      top:13.5rem;
+      top:11.5rem;
       left:6rem;
     }
     #dropper2{
-      top:21rem;
+      top:20rem;
       left:5rem;
     }
     #water1{
-      top:15rem;
+      top:13rem;
       left:6.64rem;
       width:0.67rem;
       height:2.5rem;
 
     }
     #water2{
-      top:22.5rem;
+      top:21.5rem;
       left:5.66rem;
       width:0.62rem;
       height:2.4rem;
 
     }
     #irplate{
-      top:35rem;
+      top:34rem;
       left:3rem;
       width:8rem;
       height:6em;
 
     }
-    /* #ircontent
-    {
-      top:32rem;
-      left:6rem;
-
-    } */
     #ircontent
     {
-      top:36rem;
+      top:35rem;
       left:5.1rem;
       height:3rem;
       width:4rem;
 
     }
     #irplateheading{
-      top:42rem;
+      top:41rem;
       left:4.5rem;
       font-size:1.6rem;
       

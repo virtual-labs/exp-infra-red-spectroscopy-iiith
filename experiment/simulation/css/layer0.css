@@ -1,44 +1,57 @@
 #layer0{
-    opacity:0;
-    z-index: 0;
+    opacity: 1;
+    /* z-index: 0; */
 }
+
 #button1 {
-
-        color: white;
-        text-align: center;
-        font-size: 4rem;
-        background-color: #288EC8;
-        border-radius: 16px;
-        z-index:15;
+    position:absolute;
+    left:1rem;
+	color: white;
+	/* text-align: center; */
+	background-color: #288EC8;
+    border-radius: 5rem;
+    font-size:2rem;
+    height:5rem;
+    width:10rem;
+	border: none;
+    top:7.6rem;
+    z-index: 20;
     
+}
 
-    /* position: absolute;
-    font-size:4rem;
-    border-radius: 0.2rem;
-    background-color:#288EC8;
-    top: 10.6rem;
-    left: 16rem;
-    z-index:15;
-} */
+#button1:hover {
+	background-color: #A9A9A9;
 }
 #button2 {
-    position: absolute;
-    font-size:4rem;
-    border-radius: 0.2rem;
-    background-color: #288EC8;
-    top: 10.6rem;
-    left: 45rem;
-    z-index: 15;
+    position:absolute;
+    left:35rem;
+	color: white;
+	/* text-align: center; */
+	background-color: #288EC8;
+    border-radius: 5rem;
+    font-size:2rem;
+    height:5rem;
+    width:10rem;
+	border: none;
+    top:7.6rem;
+    z-index: 20;
+    
+}
+
+#button2:hover {
+	background-color: #A9A9A9;
 }
 
 @media screen and (max-width: 1230px)
 {
     #button1{
         left:22rem;
+        font-size:1.5rem;
     }
     #button2{
         left:22rem;
         top:19rem;
+        font-size:1.5rem;
        
     }
 }
@@ -47,12 +60,12 @@
 {
     #button1{
         left:13rem;
-        font-size:3.5rem;
+        font-size:1.5rem;
     }
     #button2{
         left:13rem;
         top:19rem;
-        font-size:3.5rem;
+        font-size:1.5rem;
        
     }
 }
@@ -61,16 +74,16 @@
 {
     #button1{
         left:8rem;
-        font-size:3rem;
+        font-size:1.5rem;
     }
     #button2{
         left:8rem;
         top:19rem;
-        font-size:3rem;
+        font-size:1.5rem;
        
     }
     #message{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 }
 
