@@ -31,7 +31,20 @@
     top:16rem;
     z-index: 2;
 }   
-
+#evaluatebutton{
+    /* position:absolute; */
+    margin-top:5%;
+    margin-left:28%;
+	color: white;
+	text-align: center;
+	background-color: #288EC8;
+    border-radius: 5rem;
+    height:3rem;
+    font-size: 1.5rem;
+    width:25%;
+	border: none;
+    z-index:3;
+}
 #monitor{
     position: absolute;
     top: 12.6rem;

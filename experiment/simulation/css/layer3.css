@@ -79,14 +79,34 @@
     border-radius: 0 0 1rem 1rem; 
 
 }
-#startbutton{
+/* #startbutton{
     position:absolute;
     background-color:#288EC8;
     font-size:5rem;
     top: 13rem;
     left: 40rem;
     z-index:3;
- }
+ } */
+ #startbutton {
+    position:absolute;
+    left:1rem;
+	color: white;
+	/* text-align: center; */
+	background-color: #288EC8;
+    border-radius: 5rem;
+    font-size:3.5rem;
+    height:5rem;
+    width:10rem;
+    left:40rem;
+	border: none;
+    top:13rem;
+    z-index:3;
+    
+}
+
+#startbutton:hover {
+	background-color: #A9A9A9;
+}
 
  @media screen and (max-width: 1400px)
  {
@@ -100,7 +120,7 @@
  {
     #createcircle{
         position: absolute;
-        top:24rem;
+        top:20rem;
         height: 20rem;
         width: 28rem;
         left:21rem;
@@ -111,7 +131,7 @@
     }
     #singlestand{
         position: absolute;
-        top:32.6rem;
+        top:28.6rem;
         height: 4.4rem;
         width: 0.6rem;
         left:34.2rem;
@@ -121,7 +141,7 @@
     
     #movable{
         position: absolute;
-        top:27rem;
+        top:23rem;
         height: 3.8rem;
         width: 2rem;
         left:33.8rem;
@@ -132,7 +152,7 @@
     }
     #stand{
         position: absolute;
-        top:28.9rem;
+        top:24.9rem;
         height: 10.2rem;
         width: 16rem;
         left:26.97rem;
@@ -142,7 +162,7 @@
     }
     #scanner{
         position: absolute;
-        top: 51.6rem;
+        top: 47.6rem;
         height: 19rem;
         width: 30rem; 
         left: 20.3rem; 
@@ -154,8 +174,8 @@
         position:absolute;
         background-color:#288EC8;
         font-size:3.5rem;
-        top: 13rem;
-        left: 31rem;
+        top: 11rem;
+        left: 30rem;
         /* z-index:3; */
 
      }
@@ -178,20 +198,13 @@
     
  }
 
- @media screen and (max-width: 935px)
- {
-    #allobjects
-    {
-        left:-20rem;
-    }
-    
- }
+ 
 
  @media screen and (max-width: 730px)
  {
     #createcircle{
         position: absolute;
-        top:24rem;
+        top:20rem;
         height: 20rem;
         width: 23rem;
         left:21rem;
@@ -202,7 +215,7 @@
     }
     #singlestand{
         position: absolute;
-        top:32.6rem;
+        top:28.6rem;
         height: 4.4rem;
         width: 0.6rem;
         left:31.7rem;
@@ -212,7 +225,7 @@
     
     #movable{
         position: absolute;
-        top:27rem;
+        top:23rem;
         height: 3.3rem;
         width: 2rem;
         left:31.8rem;
@@ -223,7 +236,7 @@
     }
     #stand{
         position: absolute;
-        top:28.9rem;
+        top:24.9rem;
         height: 10.2rem;
         width: 16rem;
         left:24.5rem;
@@ -233,7 +246,7 @@
     }
     #scanner{
         position: absolute;
-        top: 49.6rem;
+        top: 45.6rem;
         height: 17rem;
         width: 22rem; 
         left: 20.3rem; 
@@ -245,83 +258,19 @@
         position:absolute;
         background-color:#288EC8;
         font-size:3.5rem;
-        top: 13rem;
+        top: 10rem;
         left: 27rem;
         /* z-index:3; */
 
      }
  }
 
- /* @media screen and (max-width: 580px)
- {
-    #createcircle{
-        position: absolute;
-        top:24rem;
-        height: 20rem;
-        width: 17rem;
-        left:22rem;
-        background-color: rgb(37, 37, 37);
-        border-radius: 60%;
-        opacity:1;
-        z-index: 5;
-    }
-    #singlestand{
-        position: absolute;
-        top:31.8rem;
-        height: 3.6rem;
-        width: 0.4rem;
-        left:29.9rem;
-        opacity:1;
-        z-index:9;  
-    }
-    
-    #movable{
-        position: absolute;
-        top:27rem;
-        height: 3.3rem;
-        width: 1.5rem;
-        left:29.8rem;
-        opacity:1;
-        transform: rotateY(29deg);
-        z-index: 7;
-        
-    }
-    #stand{
-        position: absolute;
-        top:28.9rem;
-        height: 8.2rem;
-        width: 12rem;
-        left:24.5rem;
-        opacity:1;
-        z-index: 6;
-    
-    }
-    #scanner{
-        position: absolute;
-        top: 47.6rem;
-        height: 17rem;
-        width: 17rem; 
-        left: 21rem; 
-        opacity:1;
-        border-radius: 0 0 1rem 1rem; 
-    
-    }
-    #startbutton{
-        position:absolute;
-        background-color:#288EC8;
-        font-size:3.5rem;
-        top: 13rem;
-        left: 27rem;
-        z-index:3;
-
-     }
- }*/
 
  @media screen and (max-width: 570px)
  {
     #createcircle{
         position: absolute;
-        top:24rem;
+        top:18rem;
         height: 20rem;
         width: 10rem;
         left:22rem;
@@ -332,7 +281,7 @@
     }
     #singlestand{
         position: absolute;
-        top:31.8rem;
+        top:25.8rem;
         height: 3.6rem;
         width: 0.4rem;
         left:26.6rem;
@@ -342,7 +291,7 @@
     
     #movable{
         position: absolute;
-        top:27rem;
+        top:21rem;
         height: 3rem;
         width: 1.3rem;
         left:26.5rem;
@@ -353,7 +302,7 @@
     }
     #stand{
         position: absolute;
-        top:28.9rem;
+        top:22.9rem;
         height: 8.2rem;
         width: 8rem;
         left:23rem;
@@ -363,7 +312,7 @@
     }
     #scanner{
         position: absolute;
-        top: 47.6rem;
+        top: 41.6rem;
         height: 17rem;
         width: 12rem; 
         left: 21rem; 
@@ -375,8 +324,9 @@
         position:absolute;
         background-color:#288EC8;
         font-size:1.7rem;
-        top: 13rem;
-        left: 22rem;
+        top: 10rem;
+        left: 23rem;
+        width:8rem;
         z-index:3;
 
      }
