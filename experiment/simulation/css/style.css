@@ -2,6 +2,7 @@
   position:absolute;
   top:10rem;
   width: 10rem;
+  /* height: 5rem; */
   left: 5rem;
   z-index: 12;
 }
@@ -40,6 +41,23 @@
   top: 38.6rem;
   z-index: 10;
 }
+
+#nizolheading{
+  position:absolute;
+  font-size: 3rem;
+  left: 59.7rem;
+  top: 24rem;
+  z-index: 10;
+}
+
+#sampleheading{
+  position:absolute;
+  font-size: 3rem;
+  left: 8.2rem;
+  top: 25rem;
+  z-index: 10;
+}
+
 
 #message{
   position:absolute;
@@ -178,6 +196,23 @@
       left: 16rem;
       top: 30.6rem;
     }
+
+    #sampleheading{
+      position:absolute;
+      font-size: 3rem;
+      left: 7.6rem;
+      top: 12rem;
+      z-index: 10;
+    }
+
+    #nizolheading{
+      position:absolute;
+      font-size: 3rem;
+      left: 25.7rem;
+      top: 11.5rem;
+      z-index: 10;
+    }
+  
     #message{
       font-size:2rem;
     }
@@ -293,6 +328,21 @@
       font-size: 3rem;
       left: 16rem;
       top: 30.6rem;
+    }
+    #nizolheading{
+      position:absolute;
+      font-size: 3rem;
+      left: 25.7rem;
+      top: 11.5rem;
+      z-index: 10;
+    }
+    
+    #sampleheading{
+      position:absolute;
+      font-size: 3rem;
+      left: 7.6rem;
+      top: 12rem;
+      z-index: 10;
     }
     #message{
       font-size:2rem;
@@ -523,6 +573,23 @@
      
 
     }
+
+    #nizolheading{
+      position:absolute;
+      font-size:2rem;
+      left: 19.8rem;
+      top: 10.7rem;
+      z-index: 10;
+    }
+    
+    #sampleheading{
+      position:absolute;
+      font-size: 2rem;
+      left: 7.1rem;
+      top: 11.1rem;
+      z-index: 10;
+    }
+
     #mixer{
       position: absolute;
       top: 13.6rem;
@@ -616,14 +683,14 @@
       top:16rem;
       /* height:5rem; */
       width:6rem;
-      height:6rem;
+      height:5rem;
   
     }
     #sample
     {
       top:8rem;
       left:4rem;
-      height:6rem;
+      height:5rem;
       width: 6rem;
     }
     #mortar {
@@ -640,6 +707,21 @@
       width: 8rem;
       height :10rem;
       font-size:1.5rem;
+    }
+    #nizolheading{
+      position:absolute;
+      font-size:1.5rem;
+      left: 4.89rem;
+      top: 20.7rem;
+      z-index: 10;
+    }
+    
+    #sampleheading{
+      position:absolute;
+      font-size: 1.5rem;
+      left: 4.89rem;
+      top: 12.9rem;
+      z-index: 10;
     }
     #message
     {
