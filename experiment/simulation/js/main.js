@@ -16,8 +16,9 @@ let graphflag = 0
 let selectelement = -1
 function select(valu) {
     // creategraph()
+    console.log("inside in select")
     selectelement = valu
-    document.getElementById('buttonclass').style.opacity = 0
+    // document.getElementsByClassName('buttonclass').style.opacity = 0
     var a1 = anime.timeline({
         targets: document.getElementById('layer0'),
         // opacity:'0.5',
