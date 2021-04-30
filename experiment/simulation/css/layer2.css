@@ -18,7 +18,7 @@
 }
 #ircollect {
     /* display:inline; */
-    top:6.2rem;
+    top:3.2rem;
     left:16rem;
 }
 
@@ -94,7 +94,7 @@
 #platecollect
 {
     left:13.8rem;
-    top:20rem;
+    top:17rem;
     
 }
 
@@ -172,6 +172,10 @@
 }
 
 @media screen and (max-width: 640px) {
+    #ircollect
+    {
+        top:0.7em;
+    }
     #plate1 {
         /* left:1em; */
         width:8rem;
@@ -233,7 +237,7 @@
 
     }
     #platecollect {
-        top: 15em;
+        top: 12em;
     }
 
 }
