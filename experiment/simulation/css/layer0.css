@@ -3,11 +3,27 @@
     /* z-index: 0; */
 }
 
-#button1 {
+.buttonclass
+{
+    position:relative;
+    top:5rem;
+    background-color: #288EC8;
+    font-size:2rem;
+    border-radius: 5rem;
+    color: white;
+    margin-left:3rem;
+    width:20%;
+    padding:2%;
+    display:block;
+    min-width: 10rem;
+    z-index: 20;
+}
+
+/* #button1 {
     position:absolute;
-    left:1rem;
+    left:20rem;
 	color: white;
-	/* text-align: center; */
+	
 	background-color: #288EC8;
     border-radius: 5rem;
     font-size:2rem;
@@ -24,25 +40,24 @@
 }
 #button2 {
     position:absolute;
-    left:35rem;
+    left:20rem;
 	color: white;
-	/* text-align: center; */
 	background-color: #288EC8;
     border-radius: 5rem;
     font-size:2rem;
     height:5rem;
     width:10rem;
 	border: none;
-    top:7.6rem;
+    top:17.6rem;
     z-index: 20;
     
 }
 
 #button2:hover {
 	background-color: #A9A9A9;
-}
+} */
 
-@media screen and (max-width: 1230px)
+/* @media screen and (max-width: 1230px)
 {
     #button1{
         left:22rem;
@@ -85,5 +100,5 @@
     #message{
         font-size: 1.5rem;
     }
-}
+}  */
 

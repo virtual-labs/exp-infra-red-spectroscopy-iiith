@@ -32,8 +32,9 @@
     z-index: 2;
 }   
 #evaluatebutton{
-    /* position:absolute; */
-    margin-top:5%;
+    position:absolute;
+    /* margin-top:2rem; */
+    top:2.5rem;
     margin-left:28%;
 	color: white;
 	text-align: center;
@@ -42,6 +43,7 @@
     height:3rem;
     font-size: 1.5rem;
     width:25%;
+    min-width:6.5rem;
 	border: none;
     z-index:3;
 }
