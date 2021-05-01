@@ -721,5 +721,5 @@ function creategraph() {
 
 function directToEvaluation() {
     window.location.href = '../html/evaluation.html';
-
+    console.log("check");
 }
