@@ -720,5 +720,6 @@ function creategraph() {
 }
 
 function directToEvaluation() {
-    window.location.href = './evaluation.html';
+    window.location.href = '../html/evaluation.html';
+
 }
