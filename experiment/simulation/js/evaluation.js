@@ -18,7 +18,7 @@ function createGraph() {
             y: yValues[i]
         })
     }
-    const chart = new CanvasJS.Chart("chartContainer", {
+    const chart = new CanvasJS.Chart("chart-Container", {
         animationEnabled: true,
         theme: "light2",
         title: {
