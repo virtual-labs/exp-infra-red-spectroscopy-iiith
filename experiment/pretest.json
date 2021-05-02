@@ -1,10 +1,10 @@
 [{
         "question": "The most effect method of IR spectroscopy is the:",
         "answers": {
-            "a": " Dispersion spectrometers",
-            "b": " Reflection spectrometers",
-            "c": " Deflection spectrometers",
-            "d": " Fourier-Transform spectrometers"
+            "a": " Dispersion spectrometer",
+            "b": " Reflection spectrometer",
+            "c": " Deflection spectrometer",
+            "d": " Fourier-Transform spectrometer"
         },
         "correctAnswer": "d"
     },
