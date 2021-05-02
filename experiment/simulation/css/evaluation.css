@@ -39,7 +39,7 @@ h5 {
     font-weight: bold
 }
 
-#chartContainer {
+#chart-Container {
     display: block;
     margin-top: 1%;
     margin-bottom: 35%;
@@ -47,14 +47,14 @@ h5 {
     width: 80%;
 }
 
-.claculator {
+.calculator {
     position: absolute;
     top: 35rem;
     margin-left: 5%;
     box-shadow: 4px 0px 8px 0px rgb(164, 198, 82), -1px 0px 17px 0px grey, 0px -3px 10px 0px rgb(164, 198, 82);
 }
 
-.Questions {
+.questions {
     position: absolute;
     top: 50rem;
     margin-left: 5%;
@@ -76,11 +76,5 @@ input[type="submit"]:hover {
         display: block;
         width: 50%;
         margin-left: 15%;
-    }
-    #plot2 {
-        display: table;
-        height: 400px;
-        width: 800px;
-        overflow: scroll;
     }
 }
