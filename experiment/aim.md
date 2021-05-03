@@ -3,7 +3,6 @@ Infrared region lies between the visible and microwave regions of the electromag
 <image src="images/figure1_exp6.gif">
 
 Figure 1: Energy levels of molecules.
-Picture source: [ Energy levels of molecules](http://www.wag.caltech.edu/home/jang/genchem/infrared.htm)
 
 
 (i) To learn sample prepartion and handling procedures to measure an IR spectrum using salt plates.
