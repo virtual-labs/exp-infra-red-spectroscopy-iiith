@@ -18,7 +18,7 @@ function createGraph() {
             y: yValues[i]
         })
     }
-    const chart = new CanvasJS.Chart("chart-Container", {
+    const chart = new CanvasJS.Chart("chart-container", {
         animationEnabled: true,
         theme: "light2",
         title: {
@@ -61,12 +61,12 @@ function quiz_submit() {
         document.getElementById("demo1").innerHTML = "Input OK";
     }
     let inpObj2 = document.getElementById("id2");
-    console.log(inpObj2.value);
+    console.debug(inpObj2.value);
     if (inpObj2.value != "hello") {
-        console.log("hello")
+        console.debug("hello")
         document.getElementById("demo2").innerHTML = inpObj2.validationMessage;
     } else {
-        console.log("hey")
+        console.debug("hey")
         document.getElementById("demo2").innerHTML = "Input OK";
     }
 
