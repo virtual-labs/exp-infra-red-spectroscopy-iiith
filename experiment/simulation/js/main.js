@@ -18,6 +18,7 @@ let selectElement = -1;
 // This Function is called to after selecting a particular sample and accordingly the flag value is set
 
 function select(event) {
+    console.log("Changes");
     let valu = event.target.id;
     selectElement = valu;
     localStorage.setItem("sampleflag", valu);
