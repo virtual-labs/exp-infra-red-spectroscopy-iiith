@@ -53,7 +53,7 @@ function clr() {
     document.getElementById("result").value = ""
 }
 
-function quiz_submit() {
+function quizSubmit() {
     let inpObj1 = document.getElementById("id1");
     if (inpObj1.value == '') {
         document.getElementById("demo1").innerHTML = "cross";

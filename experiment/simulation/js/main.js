@@ -438,7 +438,7 @@ function changeToStart() {
         }).add({
             update: function(anim) {
                 startAnimFlag = 9;
-                shiftmovable()
+                shiftMovable()
             }
         })
         startAnimFlag = 9;
@@ -500,7 +500,7 @@ function moveBorderPlates() {
 
 // This function is called to shift movable object present in layer3
 
-function shiftmovable() {
+function shiftMovable() {
     if (startAnimFlag === 9) {
         const a1 = anime.timeline({
             targets: document.getElementById('movable'),
@@ -631,7 +631,7 @@ function shiftIR() {
             update: function(anim) {
                 if (startAnimFlag = 11) {
                     startAnimFlag = 12
-                    changegraphlayer();
+                    changeGraphLayer();
 
                 }
             }
@@ -641,7 +641,7 @@ function shiftIR() {
 
 // This function is called to change to layer 5 and draw graph
 
-function changegraphlayer() {
+function changeGraphLayer() {
     const lay4 = anime.timeline({
         targets: document.getElementById('layer4'),
         duration: 1200,
@@ -661,8 +661,8 @@ function changegraphlayer() {
     }).add({
         update: function(anim) {
             if (startAnimFlag === 12) {
-                creategraph()
-                startAnimFlag = 13
+                createGraph();
+                startAnimFlag = 13;
             }
 
         }
@@ -671,7 +671,7 @@ function changegraphlayer() {
 
 // This function is called to construct graph
 
-function creategraph() {
+function createGraph() {
     console.debug(graphFlag);
 
     if (graphFlag === 0) {
@@ -699,7 +699,7 @@ function creategraph() {
                 y: yValues[i]
             })
         }
-        const chart = new CanvasJS.Chart("chart-Container", {
+        const chart = new CanvasJS.Chart("chart-container", {
             animationEnabled: true,
             theme: "light2",
             title: {
