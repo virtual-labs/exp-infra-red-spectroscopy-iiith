@@ -24,35 +24,35 @@
     z-index: 2;
 }
 
-#fixedmirrorheading {
+#fixed-mirror-heading {
     position: absolute;
     font-size: 2.5rem;
     left: 46.5rem;
     top: 5.4rem;
 }
 
-#irheading {
+#ir-heading {
     position: absolute;
     font-size: 2.5rem;
     left: 2.5rem;
     top: 23.4rem;
 }
 
-#moveablemirrorheading {
+#moveable-mirror-heading {
     position: absolute;
     font-size: 2.5rem;
     left: 56.8rem;
     top: 20.3rem;
 }
 
-#beamsplitterheading {
+#beam-splitter-heading {
     position: absolute;
     font-size: 2.5rem;
     left: 21.7rem;
     top: 34.3rem;
 }
 
-#detectorheading {
+#detector-heading {
     position: absolute;
     font-size: 2.5rem;
     left: 42.7rem;
@@ -60,7 +60,7 @@
     width: 5rem;
 }
 
-#lineup1 {
+#line-up1 {
     position: absolute;
     top: 15.7rem;
     height: 11.8rem;
@@ -71,7 +71,7 @@
     z-index: 2;
 }
 
-#lineup2 {
+#line-up2 {
     position: absolute;
     top: 8.7rem;
     height: 7.5rem;
@@ -83,7 +83,7 @@
     z-index: 2;
 }
 
-#lineright1 {
+#line-right1 {
     position: absolute;
     top: 32.2rem;
     height: 0.5rem;
@@ -94,7 +94,7 @@
     z-index: 2;
 }
 
-#lineright2 {
+#line-right2 {
     position: absolute;
     top: 32.2rem;
     height: 0.5rem;
@@ -105,7 +105,7 @@
     z-index: 2;
 }
 
-#linedown1 {
+#line-down1 {
     position: absolute;
     top: 37.3rem;
     height: 8rem;
@@ -116,7 +116,7 @@
     z-index: 2;
 }
 
-#linedown2 {
+#line-down2 {
     position: absolute;
     top: 45.3rem;
     height: 7.7rem;
@@ -127,7 +127,7 @@
     z-index: 2;
 }
 
-#fixedmirror {
+#fixed-mirror {
     position: absolute;
     top: 5rem;
     height: 3.7rem;
@@ -137,7 +137,7 @@
     z-index: 2;
 }
 
-#beamsplitter {
+#beam-splitter {
     position: absolute;
     top: 25rem;
     height: 13rem;
@@ -178,28 +178,28 @@
 }
 
 @media screen and (max-width: 1315px) {
-    #fixedmirrorheading {
+    #fixed-mirror-heading {
         font-size: 2.5rem;
         left: 35rem;
         top: 5.4rem;
     }
-    #irheading {
+    #ir-heading {
         font-size: 2.5rem;
         left: 1.7rem;
         top: 21rem;
     }
-    #moveablemirrorheading {
+    #moveable-mirror-heading {
         font-size: 2.5rem;
         left: 40.8rem;
         top: 15.3rem;
     }
-    #beamsplitterheading {
+    #beam-splitter-heading {
         font-size: 2.5rem;
         width: 5rem;
         left: 14rem;
         top: 29.3rem;
     }
-    #detectorheading {
+    #detector-heading {
         font-size: 2.5rem;
         left: 34.2rem;
         top: 46.3rem;
@@ -217,49 +217,49 @@
         width: 9.3rem;
         left: 15rem;
     }
-    #lineup1 {
+    #line-up1 {
         top: 15.7rem;
         height: 7.7rem;
         width: 0.5rem;
         left: 25.5rem;
     }
-    #lineup2 {
+    #line-up2 {
         top: 8.7rem;
         height: 7rem;
         width: 0.5rem;
         left: 25.5rem;
     }
-    #lineright1 {
+    #line-right1 {
         top: 27.7rem;
         height: 0.5rem;
         width: 8rem;
         left: 28rem;
     }
-    #lineright2 {
+    #line-right2 {
         top: 27.7rem;
         height: 0.5rem;
         width: 10rem;
         left: 35.8rem;
     }
-    #linedown1 {
+    #line-down1 {
         top: 31.7rem;
         height: 5.5rem;
         width: 0.5rem;
         left: 26.4rem;
     }
-    #linedown2 {
+    #line-down2 {
         top: 37rem;
         height: 7.03rem;
         width: 0.5rem;
         left: 26.4rem;
     }
-    #fixedmirror {
+    #fixed-mirror {
         top: 5rem;
         height: 3.7rem;
         width: 16rem;
         left: 18rem;
     }
-    #beamsplitter {
+    #beam-splitter {
         top: 22rem;
         height: 11rem;
         width: 8em;
@@ -286,28 +286,28 @@
 }
 
 @media screen and (max-width: 950px) {
-    #fixedmirrorheading {
+    #fixed-mirror-heading {
         font-size: 1.6rem;
         left: 27.7rem;
         top: 5.7rem;
     }
-    #irheading {
+    #ir-heading {
         font-size: 1.6rem;
         left: 1.5rem;
         top: 21rem;
     }
-    #moveablemirrorheading {
+    #moveable-mirror-heading {
         font-size: 1.6rem;
         left: 35.8rem;
         top: 16.2rem;
     }
-    #beamsplitterheading {
+    #beam-splitter-heading {
         font-size: 1.6rem;
         width: 2rem;
         left: 12.7rem;
         top: 27rem;
     }
-    #detectorheading {
+    #detector-heading {
         font-size: 1.6rem;
         left: 25.7rem;
         top: 43.3rem;
@@ -325,49 +325,49 @@
         width: 7.5rem;
         left: 13rem;
     }
-    #lineup1 {
+    #line-up1 {
         top: 13.9rem;
         height: 6.2rem;
         width: 0.5rem;
         left: 20.5rem;
     }
-    #lineup2 {
+    #line-up2 {
         top: 8rem;
         height: 6rem;
         width: 0.5rem;
         left: 20.5rem;
     }
-    #lineright1 {
+    #line-right1 {
         top: 24.9rem;
         height: 0.5rem;
         width: 8rem;
         left: 23.3rem;
     }
-    #lineright2 {
+    #line-right2 {
         top: 24.9rem;
         height: 0.5rem;
         width: 9rem;
         left: 30.8rem;
     }
-    #linedown1 {
+    #line-down1 {
         top: 27.5rem;
         height: 6.3rem;
         width: 0.5rem;
         left: 21.4rem;
     }
-    #linedown2 {
+    #line-down2 {
         top: 33.7rem;
         height: 7rem;
         width: 0.5rem;
         left: 21.4rem;
     }
-    #fixedmirror {
+    #fixed-mirror {
         top: 5rem;
         height: 3rem;
         width: 13rem;
         left: 14.5rem;
     }
-    #beamsplitter {
+    #beam-splitter {
         top: 20rem;
         height: 10rem;
         width: 8rem;
@@ -394,28 +394,28 @@
 }
 
 @media screen and (max-width: 800px) {
-    #fixedmirrorheading {
+    #fixed-mirror-heading {
         font-size: 1.5rem;
         left: 8.8rem;
         top: 7.4rem;
     }
-    #irheading {
+    #ir-heading {
         font-size: 1.5rem;
         left: 1.5rem;
         top: 21rem;
     }
-    #moveablemirrorheading {
+    #moveable-mirror-heading {
         font-size: 1.5rem;
         left: 16.8rem;
         top: 17.8rem;
     }
-    #beamsplitterheading {
+    #beam-splitter-heading {
         font-size: 1.5rem;
         width: 2rem;
         left: 7rem;
         top: 26rem;
     }
-    #detectorheading {
+    #detector-heading {
         font-size: 1.5rem;
         left: 15.7rem;
         top: 35.3rem;
@@ -433,49 +433,49 @@
         width: 3.4rem;
         left: 8.7rem;
     }
-    #lineup1 {
+    #line-up1 {
         top: 16.3rem;
         height: 4.7rem;
         width: 0.3rem;
         left: 12.5rem;
     }
-    #lineup2 {
+    #line-up2 {
         top: 11.5rem;
         height: 4.8rem;
         width: 0.3rem;
         left: 12.5rem;
     }
-    #lineright1 {
+    #line-right1 {
         top: 24.5rem;
         height: 0.3rem;
         width: 3rem;
         left: 14.7rem;
     }
-    #lineright2 {
+    #line-right2 {
         top: 24.5rem;
         height: 0.3rem;
         width: 4.8rem;
         left: 15.8rem;
     }
-    #linedown1 {
+    #line-down1 {
         top: 25.5rem;
         height: 4.6rem;
         width: 0.3rem;
         left: 12.4rem;
     }
-    #linedown2 {
+    #line-down2 {
         top: 30.1rem;
         height: 4.5rem;
         width: 0.3rem;
         left: 12.4rem;
     }
-    #fixedmirror {
+    #fixed-mirror {
         top: 9.5rem;
         height: 2rem;
         width: 9rem;
         left: 8.5rem;
     }
-    #beamsplitter {
+    #beam-splitter {
         top: 20.8rem;
         height: 8rem;
         width: 7rem;
@@ -502,31 +502,31 @@
 }
 
 @media screen and (max-width: 580px) {
-    #fixedmirrorheading {
+    #fixed-mirror-heading {
         font-size: 1.4rem;
         left: 4.5rem;
         top: 10.5rem;
         width: 4rem;
     }
-    #irheading {
+    #ir-heading {
         font-size: 1.4rem;
         width: 4rem;
         left: 1.1rem;
         top: 26rem;
     }
-    #moveablemirrorheading {
+    #moveable-mirror-heading {
         font-size: 1.4rem;
         left: 8.8rem;
         top: 18.8rem;
         width: 3rem;
     }
-    #beamsplitterheading {
+    #beam-splitter-heading {
         font-size: 1.4rem;
         width: 2rem;
         left: 9rem;
         top: 27rem;
     }
-    #detectorheading {
+    #detector-heading {
         font-size: 1.4rem;
         left: 5rem;
         top: 37.8rem;
@@ -544,49 +544,49 @@
         width: 2rem;
         left: 4.4rem;
     }
-    #lineup1 {
+    #line-up1 {
         top: 18.2rem;
         height: 3.9rem;
         width: 0.3rem;
         left: 6.1rem;
     }
-    #lineup2 {
+    #line-up2 {
         top: 15.5rem;
         height: 2.8rem;
         width: 0.3rem;
         left: 6.1rem;
     }
-    #lineright1 {
+    #line-right1 {
         top: 24.5rem;
         height: 0.3rem;
         width: 1.6rem;
         left: 7.7rem;
     }
-    #lineright2 {
+    #line-right2 {
         top: 24.5rem;
         height: 0.3rem;
         width: 1.3rem;
         left: 9.3rem;
     }
-    #linedown1 {
+    #line-down1 {
         top: 25rem;
         height: 4.6rem;
         width: 0.3rem;
         left: 6.4rem;
     }
-    #linedown2 {
+    #line-down2 {
         top: 28.1rem;
         height: 3.4rem;
         width: 0.3rem;
         left: 6.4rem;
     }
-    #fixedmirror {
+    #fixed-mirror {
         top: 13.5rem;
         height: 2rem;
         width: 7rem;
         left: 3.1rem;
     }
-    #beamsplitter {
+    #beam-splitter {
         top: 22rem;
         height: 5rem;
         width: 3rem;

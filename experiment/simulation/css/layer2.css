@@ -3,24 +3,22 @@
      width: 100%;
  }
  
- #ircollect {
-     position: relative;
- }
- 
  #layer2 {
      opacity: 0;
  }
  
- #ircollect>* {
+  
+ #ir-collect {
+    position: relative;
+    top: 16.2rem;
+    left: 16rem;
+}
+ #ir-collect>* {
      position: absolute;
  }
+
  
- #ircollect {
-     top: 16.2rem;
-     left: 16rem;
- }
- 
- #irplate2 {
+ #ir-plate2 {
      top: 2em;
      left: 1em;
      height: 8em;
@@ -28,7 +26,7 @@
      z-index: 7;
  }
  
- #redcircle1 {
+ #red-circle1 {
      top: 4em;
      left: 3.5em;
      height: 3em;
@@ -38,7 +36,7 @@
      z-index: 8;
  }
  
- #redcircle2 {
+ #red-circle2 {
      top: 5.2em;
      left: 6.5em;
      height: 3em;
@@ -49,7 +47,7 @@
      opacity: 0;
  }
  
- #irplate4 {
+ #ir-plate4 {
      top: -1em;
      left: 1em;
      height: 8em;
@@ -58,7 +56,7 @@
      z-index: 7;
  }
  
- #irplate5 {
+ #ir-plate5 {
      top: 3.5em;
      left: 4em;
      height: 8em;
@@ -67,7 +65,7 @@
      z-index: 7;
  }
  
- #irplate3 {
+ #ir-plate3 {
      top: 2em;
      left: 18em;
      height: 8em;
@@ -75,17 +73,14 @@
      z-index: 7;
  }
  
- #platecollect {
+ #plate-collect {
      position: relative;
- }
- 
- #platecollect>* {
-     position: absolute;
- }
- 
- #platecollect {
      left: 13.8rem;
      top: 0rem;
+ }
+ 
+ #plate-collect>* {
+     position: absolute;
  }
  
  #plate1 {
@@ -106,24 +101,24 @@
  }
  
  @media screen and (max-width: 800px) {
-     #irplate2 {
+     #ir-plate2 {
          left: -10em;
          height: 7em;
          width: 7em;
      }
-     #irplate4 {
+     #ir-plate4 {
          left: -10em;
          height: 7em;
          width: 7em;
      }
-     #redcircle1 {
+     #red-circle1 {
          top: 3.3em;
          left: -7.9em;
          height: 3em;
          width: 3em;
          border-radius: 50%;
      }
-     #irplate3 {
+     #ir-plate3 {
          height: 7em;
          width: 7em;
          left: 5em;
@@ -134,16 +129,16 @@
      #plate2 {
          left: -1em;
      }
-     #redcircle2 {
+     #red-circle2 {
          left: -4.4em;
      }
-     #irplate5 {
+     #ir-plate5 {
          left: -6.8em;
      }
  }
  
  @media screen and (max-width: 640px) {
-     #ircollect {
+     #ir-collect {
          top: 11em;
      }
      #plate1 {
@@ -156,42 +151,42 @@
          height: 8em;
          left: -5em;
      }
-     #irplate2 {
+     #ir-plate2 {
          left: -14em;
          height: 5em;
          width: 5em;
      }
-     #redcircle1 {
+     #red-circle1 {
          top: 3.3em;
          left: -12.4em;
          height: 1.8em;
          width: 1.8em;
          border-radius: 50%;
      }
-     #redcircle2 {
+     #red-circle2 {
          top: 3.7em;
          left: -10.2em;
          height: 2em;
          width: 2em;
          border-radius: 50%;
      }
-     #irplate5 {
+     #ir-plate5 {
          top: 2.5em;
          left: -11.7em;
          height: 5em;
          width: 5em;
      }
-     #irplate4 {
+     #ir-plate4 {
          left: -14em;
          height: 5em;
          width: 5em;
      }
-     #irplate3 {
+     #ir-plate3 {
          left: -7.8em;
          height: 5em;
          width: 5em;
      }
-     #platecollect {
+     #plate-collect {
          top: 2em;
      }
  }

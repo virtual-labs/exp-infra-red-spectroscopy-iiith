@@ -1,105 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/layer0.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/layer2.css">
-    <link rel="stylesheet" href="css/layer3.css">
-    <link rel="stylesheet" href="css/layer4.css">
-    <link rel="stylesheet" href="css/layer5.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/layer0.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/layer2.css">
+        <link rel="stylesheet" href="css/layer3.css">
+        <link rel="stylesheet" href="css/layer4.css">
+        <link rel="stylesheet" href="css/layer5.css">
 
-    <script src="https://unpkg.com/mathjs@9.2.0/lib/browser/math.js"></script>
-</head>
-<title>Index</title>
+        <title>Index</title>
+        <script src="https://unpkg.com/mathjs@9.2.0/lib/browser/math.js"></script>
+    </head>
 
-<body>
-    <div id="layer0">
-        <button class="buttonclass" onclick="select(event)" id="button1">Aspirine</button>
-        <button class="buttonclass" onclick="select(event)" id="button2">Caffeine</button>
-    </div>
-    <div id="layer1">
-        <img onclick="fetchWater()" src="images/nizol.png" id="nizol">
-        <img onclick="moveSpatula()" src="images/smple.png" id="sample">
-        <img onclick="moveMixer()" src="images/mortar.png" id="mortar">
-        <div id="mortarheading">Mortar</div>
-
-        <img onclick="moveMixer()" src="images/mixer.png" id="mixer">
-        <img src="images/spatula.png" id="spatula1">
-        <img src="images/spatula.png" id="spatula2">
-        <img src="images/spatula.png" id="spatula3">
-        <img src="images/spatula.png" id="spatula4">
-        <img src="images/dropper.png" id="dropper1">
-        <img src="images/dropper.png" id="dropper2">
-        <div id="water1"></div>
-        <div id="water2"></div>
-        <div onclick="goToLayer2()" id="ircontent"></div>
-        <img onclick="goToLayer2()" src="images/irplate.png" id="irplate">
-        <div id="irplateheading">IR-Plate</div>
-        <div id="sampleheading">Sample</div>
-        <div id="nizolheading">Nizol</div>
-    </div>
-    <div id="layer2">
-        <div id="ircollect">
-            <img onclick="moveBorderPlates()" src="images/irplate.png" id="irplate2">
-            <img src="images/irplate.png" id="irplate4">
-            <div onclick="moveBorderPlates()" id="redcircle1"></div>
-            <img onclick="movePlates()" src="images/irplate.png" id="irplate3">
+    <body>
+        <div id="layer0">
+            <button class="button-class" onclick="select(event)" id="button1">Aspirine</button>
+            <button class="button-class" onclick="select(event)" id="button2">Caffeine</button>
         </div>
-        <div id="platecollect">
-            <div onclick="changeToStart()" id="redcircle2"></div>
-            <img onclick="changeToStart()" src="images/platewithborder.png" id="plate1">
-            <img src="images/platewoborder.png" id="plate2">
-            <img onclick="changeToStart()" src="images/irplate.png" id="irplate5">
+        <div id="layer1">
+            <img onclick="fetchWater()" src="images/nizol.png" id="nizol">
+            <img onclick="moveSpatula()" src="images/smple.png" id="sample">
+            <img onclick="moveMixer()" src="images/mortar.png" id="mortar">
+            <div id="mortar-heading">Mortar</div>
+
+            <img onclick="moveMixer()" src="images/mixer.png" id="mixer">
+            <img src="images/spatula.png" id="spatula1">
+            <img src="images/spatula.png" id="spatula2">
+            <img src="images/spatula.png" id="spatula3">
+            <img src="images/spatula.png" id="spatula4">
+            <img src="images/dropper.png" id="dropper1">
+            <img src="images/dropper.png" id="dropper2">
+            <div id="water1"></div>
+            <div id="water2"></div>
+            <div onclick="goToLayer2()" id="ir-content"></div>
+            <img onclick="goToLayer2()" src="images/irplate.png" id="ir-plate">
+            <div id="ir-plate-heading">IR-Plate</div>
+            <div id="sample-heading">Sample</div>
+            <div id="nizol-heading">Nizol</div>
         </div>
-    </div>
-    <div id="layer3">
-        <div id="allobjects">
-            <img id="stand" src="images/setstand.png" onclick="circles()" id="monitor">
-            <img src="images/movable.png" id="movable">
-            <div id="createcircle"></div>
-            <button onclick="changeLayerThree()" id="startbutton">Start</button>
-            <img src="images/stand.png" id="singlestand">
-
-            <img src="images/scanner.png" id="scanner">
+        <div id="layer2">
+            <div id="ir-collect">
+                <img onclick="moveBorderPlates()" src="images/irplate.png" id="ir-plate2">
+                <img src="images/irplate.png" id="ir-plate4">
+                <div onclick="moveBorderPlates()" id="red-circle1"></div>
+                <img onclick="movePlates()" src="images/irplate.png" id="ir-plate3">
+            </div>
+            <div id="plate-collect">
+                <div onclick="changeToStart()" id="red-circle2"></div>
+                <img onclick="changeToStart()" src="images/platewithborder.png" id="plate1">
+                <img src="images/platewoborder.png" id="plate2">
+                <img onclick="changeToStart()" src="images/irplate.png" id="ir-plate5">
+            </div>
         </div>
-    </div>
-    <div id="layer4">
-        <img src="images/fixed-mirror.png" id="fixedmirror">
-        <img src="images/mirror.png" id="mirror1">
-        <img onclick="shiftIR()" src="images/ir.png" id="ir">
-        <img src="images/beam-splitter.png" id="beamsplitter">
-        <img src="images/detector.png" id="detector">
-        <div id="line1"></div>
-        <div id="line2"></div>
-        <div id="lineup1"></div>
-        <div id="lineup2"></div>
-        <div id="lineright1"></div>
-        <div id="lineright2"></div>
-        <div id="lineleft"></div>
-        <div id="linedown1"></div>
-        <div id="linedown2"></div>
+        <div id="layer3">
+            <div id="all-objects">
+                <img id="stand" src="images/setstand.png" onclick="circles()" id="monitor">
+                <img src="images/movable.png" id="movable">
+                <div id="create-circle"></div>
+                <button onclick="changeLayerThree()" id="start-button">Start</button>
+                <img src="images/stand.png" id="single-stand">
 
-        <div id="fixedmirrorheading">Fixed-mirror</div>
-        <div id="irheading">IR-Source</div>
-        <div id="moveablemirrorheading">Moveable-mirror</div>
-        <div id="fixedmirrorheading">Fixed-mirror</div>
-        <div id="beamsplitterheading">Beam Splitter</div>
-        <div id="detectorheading">Sample Detector</div>
+                <img src="images/scanner.png" id="scanner">
+            </div>
+        </div>
+        <div id="layer4">
+            <img src="images/fixed-mirror.png" id="fixed-mirror">
+            <img src="images/mirror.png" id="mirror1">
+            <img onclick="shiftIR()" src="images/ir.png" id="ir">
+            <img src="images/beam-splitter.png" id="beam-splitter">
+            <img src="images/detector.png" id="detector">
+            <div id="line1"></div>
+            <div id="line2"></div>
+            <div id="line-up1"></div>
+            <div id="line-up2"></div>
+            <div id="line-right1"></div>
+            <div id="line-right2"></div>
+            <div id="line-left"></div>
+            <div id="line-down1"></div>
+            <div id="line-down2"></div>
+
+            <div id="fixed-mirror-heading">Fixed-mirror</div>
+            <div id="ir-heading">IR-Source</div>
+            <div id="moveable-mirror-heading">Moveable-mirror</div>
+            <div id="fixed-mirror-heading">Fixed-mirror</div>
+            <div id="beam-splitter-heading">Beam Splitter</div>
+            <div id="detector-heading">Sample Detector</div>
 
 
-    </div>
-    <div id="layer5">
-        <img src="images/moniter.png" id="monitor">
-        <div id="chartContainer"></div>
-        <button onclick="directToEvaluation()" id="evaluatebutton">Evaluate</button>
-    </div>
-    <div id="message">Select any sample</div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-<script src="js/main.js"></script>
+        </div>
+        <div id="layer5">
+            <img src="images/moniter.png" id="monitor">
+            <div id="chart-Container"></div>
+            <button onclick="directToEvaluation()" id="evaluate-button">Evaluate</button>
+        </div>
+        <div id="message">Select any sample</div>
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+        <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
 
 </html>

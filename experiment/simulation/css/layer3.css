@@ -2,20 +2,20 @@
     opacity: 0;
 }
 
-#allobjects {
+#all-objects {
     position: relative;
 }
 
-#allobjects>* {
+#all-objects>* {
     position: absolute;
 }
 
-#allobjects {
+#all-objects {
     left: 0rem;
     top: -12rem;
 }
 
-#createcircle {
+#create-circle {
     position: absolute;
     top: 24rem;
     height: 30rem;
@@ -37,7 +37,7 @@
     z-index: 3;
 }
 
-#singlestand {
+#single-stand {
     position: absolute;
     top: 36.6rem;
     height: 5.7rem;
@@ -68,7 +68,7 @@
     border-radius: 0 0 1rem 1rem;
 }
 
-#startbutton {
+#start-button {
     position: absolute;
     left: 1rem;
     color: white;
@@ -83,25 +83,25 @@
     z-index: 3;
 }
 
-#startbutton:hover {
+#start-button:hover {
     background-color: #A9A9A9;
 }
 
 @media screen and (max-width: 1400px) {
-    #allobjects {
+    #all-objects {
         left: -5rem;
     }
 }
 
 @media screen and (max-width: 1130px) {
-    #createcircle {
+    #create-circle {
         top: 20rem;
         height: 20rem;
         width: 28rem;
         left: 21rem;
         border-radius: 60%;
     }
-    #singlestand {
+    #single-stand {
         top: 28.6rem;
         height: 4.4rem;
         width: 0.6rem;
@@ -128,7 +128,7 @@
         left: 20.3rem;
         border-radius: 0 0 1rem 1rem;
     }
-    #startbutton {
+    #start-button {
         font-size: 2rem;
         top: 11rem;
         left: 30rem;
@@ -137,26 +137,26 @@
 }
 
 @media screen and (max-width: 1400px) {
-    #allobjects {
+    #all-objects {
         left: -5rem;
     }
 }
 
 @media screen and (max-width: 935px) {
-    #allobjects {
+    #all-objects {
         left: -20rem;
     }
 }
 
 @media screen and (max-width: 730px) {
-    #createcircle {
+    #create-circle {
         top: 20rem;
         height: 20rem;
         width: 23rem;
         left: 21rem;
         border-radius: 60%;
     }
-    #singlestand {
+    #single-stand {
         top: 28.6rem;
         height: 4.4rem;
         width: 0.6rem;
@@ -182,7 +182,7 @@
         left: 20.3rem;
         border-radius: 0 0 1rem 1rem;
     }
-    #startbutton {
+    #start-button {
         font-size: 2rem;
         height: 3.5rem;
         top: 12rem;
@@ -191,7 +191,7 @@
 }
 
 @media screen and (max-width: 570px) {
-    #createcircle {
+    #create-circle {
         top: 18rem;
         height: 20rem;
         width: 10rem;
@@ -199,7 +199,7 @@
         border-radius: 60%;
         z-index: 5;
     }
-    #singlestand {
+    #single-stand {
         top: 25.8rem;
         height: 3.6rem;
         width: 0.4rem;
@@ -228,7 +228,7 @@
         left: 21rem;
         border-radius: 0 0 1rem 1rem;
     }
-    #startbutton {
+    #start-button {
         font-size: 1.7rem;
         top: 13rem;
         left: 24rem;
