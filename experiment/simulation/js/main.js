@@ -254,7 +254,7 @@ function moveMixer() {
             easing: 'linear',
         })
         const a3 = anime.timeline({
-            targets: document.getElementById('ircontent'),
+            targets: document.getElementById('ir-content'),
             duration: 1200,
             easing: 'linear',
         })
@@ -303,12 +303,12 @@ function movePlates() {
     if (startAnimFlag === 7) {
 
         const a2 = anime.timeline({
-            targets: document.getElementById('irplate3'),
+            targets: document.getElementById('ir-plate3'),
             duration: 1200,
             easing: 'linear',
         })
         const a5 = anime.timeline({
-            targets: document.getElementById('irplate2'),
+            targets: document.getElementById('ir-plate2'),
             duration: 1200,
             easing: 'linear',
         })
@@ -326,7 +326,7 @@ function movePlates() {
         })
 
         const a1 = anime.timeline({
-            targets: document.getElementById('irplate4'),
+            targets: document.getElementById('ir-plate4'),
             duration: 1200,
             easing: 'linear',
         }).add({
@@ -450,17 +450,17 @@ function changeToStart() {
 function moveBorderPlates() {
     if (startAnimFlag === 7) {
         const a5 = anime.timeline({
-            targets: document.getElementById('irplate2'),
+            targets: document.getElementById('ir-plate2'),
             duration: 1200,
             easing: 'linear',
         })
         const a2 = anime.timeline({
-            targets: [document.getElementById('irplate2'), document.getElementById('redcircle1')],
+            targets: [document.getElementById('ir-plate2'), document.getElementById('red-circle1')],
             duration: 1200,
             easing: 'linear',
         })
         const a4 = anime.timeline({
-            targets: [document.getElementById('irplate5'), document.getElementById('redcircle2')],
+            targets: [document.getElementById('ir-plate5'), document.getElementById('red-circle2')],
             duration: 1200,
             easing: 'linear',
         })
@@ -532,32 +532,32 @@ function shiftIR() {
             easing: 'linear',
         })
         const a3 = anime.timeline({
-            targets: document.getElementById('lineup1'),
+            targets: document.getElementById('line-up1'),
             duration: 1200,
             easing: 'linear',
         })
         const a4 = anime.timeline({
-            targets: document.getElementById('lineup2'),
+            targets: document.getElementById('line-up2'),
             duration: 1200,
             easing: 'linear',
         })
         const a5 = anime.timeline({
-            targets: document.getElementById('lineright1'),
+            targets: document.getElementById('line-right1'),
             duration: 1200,
             easing: 'linear',
         })
         const a6 = anime.timeline({
-            targets: document.getElementById('lineright2'),
+            targets: document.getElementById('line-right2'),
             duration: 1200,
             easing: 'linear',
         })
         const a7 = anime.timeline({
-            targets: document.getElementById('linedown1'),
+            targets: document.getElementById('line-down1'),
             duration: 1200,
             easing: 'linear',
         })
         const a8 = anime.timeline({
-            targets: document.getElementById('linedown2'),
+            targets: document.getElementById('line-down2'),
             duration: 1200,
             easing: 'linear',
         })
@@ -699,7 +699,7 @@ function creategraph() {
                 y: yValues[i]
             })
         }
-        const chart = new CanvasJS.Chart("chartContainer", {
+        const chart = new CanvasJS.Chart("chart-Container", {
             animationEnabled: true,
             theme: "light2",
             title: {
