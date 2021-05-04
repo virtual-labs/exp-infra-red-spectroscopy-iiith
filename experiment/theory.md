@@ -14,7 +14,7 @@ E<sub>osc</sub> = hν<sub>osc</sub>
 
 The elastic nature of the bond has an intrinsic vibrational frequency which is determined by the force constant K of the spring or its stiffness, the masses of the bonded atoms.
 
-<img src=images/equation1.png">
+<img src=images/equation1.png>
  
 
 where c is the speed of light, and μ is the reduced mass of the system which is given by:

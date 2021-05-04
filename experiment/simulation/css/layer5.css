@@ -43,6 +43,7 @@
     min-width: 6.5rem;
     border: none;
     z-index: 3;
+    cursor: pointer;
 }
 
 #monitor {

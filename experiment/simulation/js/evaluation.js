@@ -29,12 +29,9 @@ function createGraph() {
             lineColor: "yellow",
             indexLabelFontSize: 16,
             dataPoints: arr
-
         }]
     });
     chart.render();
-
-
 }
 
 createGraph();
@@ -69,7 +66,6 @@ function quizSubmit() {
         console.debug("hey")
         document.getElementById("demo2").innerHTML = "Input OK";
     }
-
 }
 
 function checkAns(lety, letz, soln) {

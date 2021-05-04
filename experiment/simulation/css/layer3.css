@@ -81,6 +81,7 @@
     border: none;
     top: 13rem;
     z-index: 3;
+    cursor: pointer;
 }
 
 #start-button:hover {
