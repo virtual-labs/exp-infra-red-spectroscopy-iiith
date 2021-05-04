@@ -5,5 +5,5 @@ Infrared region lies between the visible and microwave regions of the electromag
 Figure 1: Energy levels of molecules.
 
 
-(i) To learn sample prepartion and handling procedures to measure an IR spectrum using salt plates.
+(i) To learn sample prepartion and handling procedures to measure an IR spectrum using salt plates.<br></br>
 (ii) Spectral analysis of the sample measured.
