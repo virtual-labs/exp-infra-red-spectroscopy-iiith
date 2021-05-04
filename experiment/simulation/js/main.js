@@ -44,7 +44,6 @@ function select(event) {
         clickFlag = 1;
         startAnimFlag = 1;
         document.getElementById('message').innerHTML = messages[0];
-
     }
 }
 
@@ -56,23 +55,17 @@ function moveSpatula() {
             targets: document.getElementById('spatula3'),
             duration: 1200,
             easing: 'linear',
-
-
         })
         const a0 = anime.timeline({
             targets: document.getElementById('spatula1'),
             duration: 1200,
             easing: 'linear',
-
-
         }).add({
             zIndex: 11,
         }).add({
             opacity: 1,
         }).add({
             translateY: '2vh',
-        }).add({
-
         }).add({
             translateY: '-4vw',
         }).add({
@@ -92,8 +85,6 @@ function moveSpatula() {
         }).add({
             update: function(anim) {
                 document.getElementById("message").innerHTML = messages[1];
-
-
             }
         })
         startAnimFlag = 2
@@ -169,8 +160,6 @@ function fetchWater() {
         }).add({
             update: function(anim) {
                 document.getElementById("message").innerHTML = messages[3];
-
-
             }
         })
         startAnimFlag = 4
@@ -200,14 +189,11 @@ function moveMixer() {
         }).add({
             update: function(anim) {
                 document.getElementById("message").innerHTML = messages[2];
-
-
             }
         })
-
         startAnimFlag = 3;
-
-    } else if (startAnimFlag === 4) {
+    } 
+    else if (startAnimFlag === 4) {
         const a1 = anime.timeline({
             targets: document.getElementById('mixer'),
             duration: 1200,
@@ -227,12 +213,11 @@ function moveMixer() {
         }).add({
             update: function(anim) {
                 document.getElementById("message").innerHTML = messages[4];
-
-
             }
         })
         startAnimFlag = 5;
-    } else if (startAnimFlag === 5) {
+    } 
+    else if (startAnimFlag === 5) {
         const lay1 = anime.timeline({
             targets: document.getElementById('layer1'),
             duration: 1200,
@@ -301,7 +286,6 @@ function moveMixer() {
 
 function movePlates() {
     if (startAnimFlag === 7) {
-
         const a2 = anime.timeline({
             targets: document.getElementById('ir-plate3'),
             duration: 1200,
@@ -333,20 +317,15 @@ function movePlates() {
             delay: 3000,
             opacity: 1,
             translateY: '3em',
-
         }).add({
             opacity: 0,
         }).add({
             update: function(anim) {
                 document.getElementById("message").innerHTML = messages[6];
-
-
             }
         })
-
         startAnimFlag = 7;
     }
-
 }
 
 // This function is called to change from layer1 to layer 2
@@ -408,10 +387,7 @@ function changeLayerThree() {
             }
         })
         startAnimFlag = 11;
-
     }
-
-
 }
 
 // This function is used to go from layer 2 to layer 3 and also call moveir function
@@ -489,12 +465,9 @@ function moveBorderPlates() {
         }).add({
             update: function(anim) {
                 document.getElementById("message").innerHTML = messages[7];
-
-
             }
         })
         startAnimFlag = 8;
-
     }
 }
 
@@ -632,7 +605,6 @@ function shiftIR() {
                 if (startAnimFlag = 11) {
                     startAnimFlag = 12
                     changeGraphLayer();
-
                 }
             }
         })
@@ -664,7 +636,6 @@ function changeGraphLayer() {
                 createGraph();
                 startAnimFlag = 13;
             }
-
         }
     })
 }
@@ -710,13 +681,11 @@ function createGraph() {
                 lineColor: "yellow",
                 indexLabelFontSize: 16,
                 dataPoints: arr
-
             }]
         });
         chart.render();
         graphFlag = 1;
     }
-
 }
 
 function directToEvaluation() {
