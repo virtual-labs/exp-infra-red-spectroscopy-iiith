@@ -229,15 +229,15 @@ async function movePipette() {
 
     let endX = "-290%";
     let endY = "110%";
-    if (divWidth > 1759) {
-      startY = "-150%";
-      startX = "450%";
-    }
+    // if (divWidth > 1759) {
+    //   startY = "-150%";
+    //   startX = "450%";
+    // }
 
     if (divWidth < 769) {
       startY = "-120%";
       startX = "480%";
-      endY = "150%";
+      endY = "230%";
       endX = "-450%";
     }
 
