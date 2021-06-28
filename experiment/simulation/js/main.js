@@ -73,8 +73,8 @@ async function moveJrCell(x) {
     if (divWidth < 769) {
       a1.add({
         duration: 1000,
-        translateY: 350,
-        translateX: -100,
+        translateY: 300,
+        translateX: -80,
         scale: 0.25,
       }).add({
         opacity: 0,
@@ -87,7 +87,7 @@ async function moveJrCell(x) {
       }).add({
         opacity: 0,
       });
-      console.log("responsiveness updated");
+      console.log("responsiveness mobile updated");
     }
 
     document.getElementById("instruction").innerHTML =
