@@ -126,6 +126,7 @@ let fillPipette = async () => {
 function pur() {
   if (overallIteration === 1) {
     changeMessage();
+    console.log("spooooooom");
     let image = document.getElementById("spoon1");
     image.setAttribute("opacity", "1");
     image.style.transform = "translate(200%, -5%);";
@@ -138,11 +139,10 @@ function pur() {
 
     screenWidth();
     let endX = "300%";
-    let endY = "100%";
+    let endY = "120%";
 
-    console.log("spooooooom");
     if (divWidth < 769) {
-      endY = "250%";
+      endY = "280%";
       endX = "250%";
     }
 
