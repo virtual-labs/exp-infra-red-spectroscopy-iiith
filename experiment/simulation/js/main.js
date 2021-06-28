@@ -142,7 +142,7 @@ function pur() {
     let endY = "120%";
 
     if (divWidth < 769) {
-      endY = "280%";
+      endY = "260%";
       endX = "250%";
     }
 
