@@ -73,8 +73,8 @@ async function moveJrCell(x) {
     if (divWidth < 769) {
       a1.add({
         duration: 1000,
-        translateY: 300,
-        translateX: -80,
+        translateY: 280,
+        translateX: -60,
         scale: 0.25,
       }).add({
         opacity: 0,
