@@ -229,10 +229,6 @@ async function movePipette() {
 
     let endX = "-290%";
     let endY = "110%";
-    // if (divWidth > 1759) {
-    //   startY = "-150%";
-    //   startX = "450%";
-    // }
 
     if (divWidth < 769) {
       startY = "-120%";
@@ -327,10 +323,10 @@ async function moveSyringe() {
       easing: "linear",
     });
 
-    let startX = "-1540%";
-    let startY = "-10%";
-    let endX = "-1500%";
-    let endY = "-8%";
+    let startX = "-1500%";
+    let startY = "-240%";
+    let endX = "-1000%";
+    let endY = "-180%";
 
     screenWidth();
     console.log("DivWidth for moveSyringe: ", divWidth);
