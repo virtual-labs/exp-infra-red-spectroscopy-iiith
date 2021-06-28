@@ -82,7 +82,7 @@ async function moveJrCell(x) {
     } else {
       a1.add({
         duration: 1000,
-        translateX: 700,
+        translateX: 500,
         scale: 0.25,
       }).add({
         opacity: 0,
