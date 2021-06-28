@@ -275,6 +275,11 @@ async function shakeBeaker() {
     changeMessage();
     let image = document.getElementById("mixer");
     image.style.opacity = 1;
+    let sc = 1;
+    screenWidth();
+    if (divWidth < 769) {
+      sc = 0.5;
+    }
     let a1 = anime.timeline({
       targets: "#mixer",
       duration: 800,
@@ -290,6 +295,7 @@ async function shakeBeaker() {
       duration: 0,
       translateY: startY,
       translateX: startX,
+      scale: sc,
     })
       .add({
         rotate: [20, 0, -20, 0],
