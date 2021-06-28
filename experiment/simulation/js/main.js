@@ -340,9 +340,9 @@ async function moveSyringe() {
 
     if (divWidth < 769) {
       startX = "-260%";
-      startY = "-980%";
+      startY = "-880%";
       endX = "520%";
-      endY = "-930%";
+      endY = "-830%";
     }
 
     a1.add({
