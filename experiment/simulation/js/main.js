@@ -87,7 +87,6 @@ async function moveJrCell(x) {
       }).add({
         opacity: 0,
       });
-      console.log("responsiveness mobile updated");
     }
 
     document.getElementById("instruction").innerHTML =
@@ -139,10 +138,11 @@ function pur() {
 
     screenWidth();
     let endX = "300%";
-    let endY = "75%";
+    let endY = "100%";
 
+    console.log("spooooooom");
     if (divWidth < 769) {
-      endY = "150%";
+      endY = "250%";
       endX = "250%";
     }
 
