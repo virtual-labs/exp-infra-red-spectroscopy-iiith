@@ -331,18 +331,18 @@ async function moveSyringe() {
     screenWidth();
     console.log("DivWidth for moveSyringe: ", divWidth);
 
-    if (divWidth > 1759) {
-      startX = "-1500%";
-      startY = "-240%";
-      endX = "-1000%";
-      endY = "-180%";
-    }
+    // if (divWidth > 1759) {
+    //   startX = "-1500%";
+    //   startY = "-240%";
+    //   endX = "-1000%";
+    //   endY = "-180%";
+    // }
 
     if (divWidth < 769) {
       startX = "-260%";
-      startY = "-780%";
-      endX = "390%";
-      endY = "-730%";
+      startY = "-580%";
+      endX = "690%";
+      endY = "-590%";
     }
 
     a1.add({
