@@ -293,7 +293,7 @@ async function shakeBeaker() {
 
     if (divWidth < 769) {
       startX = "-300%";
-      startY = "-50%";
+      startY = "-65%";
     }
 
     a1.add({
