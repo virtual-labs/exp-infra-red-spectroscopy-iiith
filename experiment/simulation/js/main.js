@@ -221,8 +221,8 @@ async function movePipette() {
       duration: 800,
       easing: "linear",
     });
-    let startX = "-980%";
-    let startY = "150%";
+    let startX = "-150%";
+    let startY = "450%";
 
     screenWidth();
     console.log("DivWidth for movePipette: ", divWidth);
