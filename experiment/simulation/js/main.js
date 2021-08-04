@@ -128,7 +128,6 @@ let fillPipette = async () => {
 function pur() {
   if (overallIteration === 1) {
     changeMessage();
-    console.log("spooooooom");
     let image = document.getElementById("spoon1");
     image.setAttribute("opacity", "1");
     image.style.transform = "translate(200%, -5%);";
@@ -227,7 +226,6 @@ async function movePipette() {
     let startY = "-150%";
 
     screenWidth();
-    console.log("DivWidth for movePipette: ", divWidth);
 
     let endX = "-290%";
     let endY = "110%";
@@ -342,14 +340,6 @@ async function moveSyringe() {
     let endY = "-180%";
 
     screenWidth();
-    console.log("DivWidth for moveSyringe: ", divWidth);
-
-    // if (divWidth > 1759) {
-    //   startX = "-1500%";
-    //   startY = "-240%";
-    //   endX = "-1000%";
-    //   endY = "-180%";
-    // }
 
     if (divWidth < 769) {
       startX = "-260%";
@@ -395,7 +385,7 @@ let setupMessages = [
   "Click on the Solvent Beaker option in the Apparatus Menu to introduce it into the workspace.",
   "Click on the Mortar option in the Apparatus Menu to introduce it into the workspace.",
   "Click on the IR Plate option in the Apparatus Menu to introduce it into the workspace.",
-  "Click on the Dessicator option in the Apparatus Menu to introduce it into the workspace.",
+  "Click on the Desiccator option in the Apparatus Menu to introduce it into the workspace.",
 ];
 
 let setup = 0;
@@ -458,7 +448,6 @@ function observeMessage() {
     return;
   }
   iter2++;
-  console.log("Exists");
   document.getElementById("instruction").innerHTML = observationMessages[iter2];
   document.getElementById("observation").innerHTML = observationMessages[iter2];
 }
