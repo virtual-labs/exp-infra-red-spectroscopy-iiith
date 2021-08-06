@@ -4,6 +4,7 @@ The infrared region lies between the visible and microwave regions of the electr
 
 Figure 1: Energy levels of molecules.
 
+The aim of this experiment is:
 
-(i) To learn sample preparation and handling procedures to measure an IR spectrum using salt plates.<br></br>
-(ii) Spectral analysis of the sample measured.
+1. To learn sample preparation and handling procedures to measure an IR spectrum using salt plates.<br></br>
+2. To carry out spectral analysis of the sample measured.
