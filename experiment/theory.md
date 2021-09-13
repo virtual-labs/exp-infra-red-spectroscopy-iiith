@@ -4,8 +4,15 @@ A diatomic molecule with the above description is considered as two vibrating ma
 
 f = -k(r-r<sub>e</sub>)
 
-where f is the restoring force and r is the bond length. The energy associated considering the energy curve to be parabolic is given as :
-E= 1/2k(r-r<sub>e</sub>)<sup>2</sup>
+where f is the restoring force and r is the bond length. The energy associated considering the energy curve to be parabolic is given as :  
+
+E= 1/2k(r-r<sub>e</sub>)<sup>2</sup>  
+
+<img src="images/figure2_exp6.png">  
+
+Figure 2: Vibrational energy levels and allowed transitions between them for a diatomic molecule in a simple harmonic motion.  
+Picture source:
+[http://condensedconcepts.blogspot.in/2011/10/concrete-test-of-morse-potential-in.htm](http://condensedconcepts.blogspot.in/2011/10/concrete-test-of-morse-potential-in.htm)  
 
 For any harmonic oscillator, when the bond vibrates, its energy of vibration is changing continually and periodically from kinetic to potential energy and back again. The total energy is proportional to the frequency of vibration, and is given as:
 
@@ -24,7 +31,28 @@ The value of the force constant varies from the bond to bond. K for a triple bon
 1. Strong bonds have large force constants and vibrate at a higher frequency than weaker bonds.
 2. Bonds between the heavy atoms (larger reduced mass) vibrate at a lower frequency than that of bonds between the lighter atoms.
 
-The Infrared Spectrometer:
+<img src="images/figure3_exp6.png">  
+
+ Figure 3: Vibrational modes of an organic molecule.The energy of molecular vibration is quantised. A molecule can only stretch and bend at certain allowed frequencies.
+
+Picture source: [http://chemwiki.ucdavis.edu/Organic_Chemistry/Organic_Chemistry_With_a_Biological_Emphasis/Chapter__4%3A_Structure_Determination_I/Section_4.2%3A__Infrared_spectroscopy](http://chemwiki.ucdavis.edu/Organic_Chemistry/Organic_Chemistry_With_a_Biological_Emphasis/Chapter__4%3A_Structure_Determination_I/Section_4.2%3A__Infrared_spectroscopy)    
+
+**Sample preparation for Infrared spectroscopy:**
+The sample to be measured must be taken in a sample holder or cell which is made of ionic substance. Sodium chloride or potassium bromide plates are used. Potassium bromide plates are more expensive than sodium chloride but has an advantage over the sodium chloride because of the asbsorbs at 650cm-1. Glass or platics absorb strongly through the infrared region.
+
+**Liquids:** A drop of the liquid sample is placed between a pair of polished IR salt plates. The plates are pressed together and the sample forms a thin film between the salt plates. A spectrum obtained by this method is neat for there is no use of solvent in the sample preparation.
+
+**Solids:** One of the methods used to prepare sample is the Bbr Pellet method. Where the sample is powdered along with KBr and pressed under high pressure to form a pellet.
+
+The other method is the Nujol method where the sample is ground along with few drops of mineral oil or nujol and the thick suspension is place between the salt plates.
+
+<img src="images/figure4_exp6.jpg">
+
+Figure 4: IR salt plates (Sodium Chloride)
+Picture source: [http://www.sciencephoto.com/media/222708/view](http://www.sciencephoto.com/media/222708/view)  
+
+
+**The Infrared Spectrometer:**
 The infrared spectrometer or the spectrophotometer is the instrument that determines the IR absorption spectra of a compound. There are two types of spectrometers that are widely used in laboratories.
 a. Dispersive infrared spectrometers
 b. Fourier-Transform spectrometers
