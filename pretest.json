@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Infrared spectroscopy provides valuable information about:",
+      "answers": {
+        "a": "functional groups",
+        "b": "molecular weight",
+        "c": "physical properties",
+        "d": "chemical properties"
+      },
+      "explanations": {
+        "a": "Infrared spectroscopy is an absorption of infrared radiation by the molecules and is used to elucidate the structure of the molecule by identifying their functional groups.",
+        "b": "Molecular weight can affect the frequency of the vibration of a bond, but the IR spectrum alone cannot distinguish between the sample functional group in two different molecules having different molecular weights.",
+        "c": "Physical properties like color, odour, melting and boiling point, solubility depend on a variety of both inter and intra molecular properties. Many of these properties correspond to electronic levels of the molecules and these properties can not be studied by IR spectroscopy but rather UV-Visible spectroscopy can do it.",
+        "d": "Chemical properties of any compound depends upon its molecular framework along with the functional groups present in it. Though the functional groups can be studied using IR spectroscopy, not all chemical properties like reactivity, toxicity, acidity cannot be effectively measured by IR spectroscopy."
+      },
+      "difficulty": "beginner",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "2. The most effective method of IR spectroscopy is the:",
+      "answers": {
+        "a": "Dispersion spectrometer",
+        "b": "Reflection spectrometer",
+        "c": "Deflection spectrometer",
+        "d": "Fourier-Transform spectrometer"
+      },
+      "explanations": {
+        "a": "dispersive spectrometers generate spectra by optically dispersing the incoming radiation into its frequency or spectral components",
+        "b": "a reflection spectrometer studies light as a function of wavelength that has been reflected from a sample. It is extremely sensitive, perhaps overly sensitive, to subtle changes in crystal structure or chemistry.  Though sensitivity can be a positive thing, it can also lead to complicated spectra.",
+        "c": "A solid sample is first illuminated with modulated monochromatic IR radiation. The resulting photothermal effect generated at the sample's surface causes modulated changes in the refractive index of the air over the sample, causing a probe laser beam grazing the surface to be deflected. The deflections are measured with a photodetector. The setup is less sensitive than one based on an interferometer.",
+        "d": "FT-IR spectrometers provide the spectrum more rapidly than the dispersive ones. The optical pathway produces a pattern called the interferogram. This is a complex signal which is a plot of intensity versus time which is converted to a frequency-domain spectrum, that is intensity versus frequency.  Greater speed and greater sensitivity makes FT-IR spectrometers preferred over dispersive spectrometers."
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "d"
+    },
+    {
+      "question": "3. The desiccator is used before sample testing in FT-IR to:",
+      "answers": {
+        "a": "Remove CO<sub>2</sub>, O<sub>2</sub> and other atmospheric gases",
+        "b": "Purify the samples and remove unwanted molecules. ",
+        "c": "Cool the sample",
+        "d": "Remove any water molecules present due to moisture"
+      },
+      "explanations": {
+        "a": "Desiccators are sealable containers which contain moisture absorbent but cannot absorb any of the gases like CO<sub>2</sub>, O<sub>2</sub>.",
+        "b": "There are no purifications possible in a desiccator. The sample is simply put inside it and left for sometime.",
+        "c": "Desiccator does not contain a sink to absorb heat from the sample and hence cannot be used to cool down any sample.",
+        "d": "Desiccator contains lumps of silica gel, freshly calcined quicklime, Drierite or (not as effective) anhydrous calcium chloride (in the lower compartment) to absorb water vapor. The sample is put in the upper compartment and then it is sealed to avoid any inflow of moisture."
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "d"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1.The O-H group in alcohol and carboxylic acids show at:",
+      "answers": {
+        "a": "Alcohol at 3300cm<sup>-1</sup> and carboxylic acid at 3000cm<sup>-1</sup>",
+        "b": "At the same region around 3000cm<sup>-1</sup>",
+        "c": "Alcohol at 3000cm<sup>-1</sup> and carboxylic acid at 3300cm<sup>-1</sup>",
+        "d": "Cannot say"
+      },
+      "explanations": {
+        "a": "The stretching frequency of O-H bond in Alcohol occurs in the range of 3700-3584 cm<sup>-1</sup>  while that of O-H bond in carboxylic acid occurs in the range 3300-2500 cm<sup>-1</sup>.",
+        "b": "",
+        "c": "",
+        "d": ""
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "a"
+    },
+    {
+      "question": "2. What occurs when a molecule absorbs infrared radiation?",
+      "answers": {
+        "a": "It warms up",
+        "b": "It spins faster",
+        "c": "It vibrates faster",
+        "d": "It emits light"
+      },
+      "explanations": {
+        "a": "Any molecule will get warmed up when it absorbs radiation and releases it through its internal motions. IR radiation does not have so much energy to cause these kinds of motions which will result in warming up.",
+        "b": "Some IR radiation are able to cause rotational motions of molecules, these are mostly restricted to the far IR region which is adjacent to the Microwave region of the spectrum. ",
+        "c": "When molecules absorb IR radiation, they undergo vibrational transitions and the vibration gets faster due to more energy in that mode of vibration.",
+        "d": "Emission of light corresponds to transition between electronic energy levels which occurs due to absorption of UV-visible radiation only."
+      },
+      "difficulty": "intermediate",
+      "correctAnswer": "c"
+    },
+    {
+      "question": "3. What determines the intensity of an IR peak absorption in an IR spectrum?",
+      "answers": {
+        "a": "the change in polarizability during vibration",
+        "b": "the change in bond length during vibration",
+        "c": "the change in dipole moment during vibration",
+        "d": "the molecular weight of the bonding atoms"
+      },
+      "explanations": {
+        "a": "change in polarizability during vibration will not affect the intensity of the IR spectrum as the incoming radiation does not interact with the polarizability ellipsoid of the molecule and its vibrational energy levels are independent of the polarizability of the molecule.",
+        "b": "A change in bond length can produce a change in the intensity of the IR spectrum. But not all types of changes in bond length can produce a change, as for example, a symmetric stretch.",
+        "c": "The incoming radiation interacts with the dipole moment of the molecule. The more the dipole moment of a bond changes during the vibration, more is its effect on the intensity of the IR spectrum. For example, the C=O stretch is much more intense than the C=C stretch. The C=O bond is highly polar, so its dipole moment changes considerably as the bond stretches and hence has more effect on the intensity of the IR spectrum. ",
+        "d": "molecular weight only determines the frequency of the IR spectrum peaks and does not affect the intensity of the peaks."
+      },
+      "difficulty": "advanced",
+      "correctAnswer": "c"
+    }
+  ]
+}
